@@ -5,6 +5,7 @@ import muiTheme from './assets/styles/theme';
 import Navigation from './components/Navigation';
 import Salary from './components/Salary';
 import TestChart from './components/Chart';
+import HorizontalChart from './components/HorizontalBar';
 import Description from './components/Description'
 import './App.css';
 
@@ -27,7 +28,7 @@ class App extends Component {
         <div className="master-container">
         <Description />
         <Salary />
-        <TestChart />
+        <HorizontalChart />
         </div>
         </div>
       </MuiThemeProvider>
