@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import {Bar} from 'react-chartjs-2';
+import {horizontalBar, Pie, Line} from 'react-chartjs-2';
 
 class TestChart extends PureComponent {
   constructor(props){
@@ -31,10 +31,21 @@ class TestChart extends PureComponent {
   render(){
     return (
       <div className="chart" >
-      <Bar
+      <horizontalBar
       data={this.state.chartData}
       options={{
-        maintainAspectRatio:false
+        invertXY: true,
+        title:{
+          display:true,
+        },
+        scales: {
+          xAxes: [{
+              stacked: true
+          }],
+          yAxes: [{
+              stacked: true
+          }]
+      }
       }}
       />
       </div>

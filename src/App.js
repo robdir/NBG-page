@@ -5,6 +5,7 @@ import muiTheme from './assets/styles/theme';
 import Navigation from './components/Navigation';
 import Salary from './components/Salary';
 import TestChart from './components/Chart';
+
 import Description from './components/Description'
 import Network from './components/Network'
 import './App.css';
