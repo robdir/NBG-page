@@ -3,7 +3,6 @@ import './Competences.css'
 
 class Competences extends Component {
 
-
   render() {
     return(
         <div className="competences-container">

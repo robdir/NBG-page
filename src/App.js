@@ -27,14 +27,13 @@ class App extends Component {
       <MuiThemeProvider muiTheme={muiTheme}>
         <div className="App">
         <Navigation />
-        <div className="master-container">
-        <Description />
-        <Salary />
-        <Competences />
-        <Network />
-        <Jobmarket />
-
-        </div>
+          <div className="master-container">
+              <Description />
+              <Salary />
+              <Competences />
+              <Network />
+              <Jobmarket />
+            </div>
         </div>
       </MuiThemeProvider>
     )

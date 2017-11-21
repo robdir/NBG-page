@@ -50,7 +50,9 @@ class HorizontalChart extends PureComponent {
       <div>
         <HorizontalBar
         data={this.state.chartData}
-        options={this.state.chartOptions} />
+        width={500}
+        height={100}
+        options={this.state.chartOptions}/>
       </div>
     );
   }

@@ -1,6 +1,4 @@
 font-family: 'Barlow Semi Condensed', sans-serif;
-
-
 .App {
   text-align: center;
 }
@@ -24,7 +22,8 @@ font-family: 'Barlow Semi Condensed', sans-serif;
   border-right: solid 5px #ff8f16;*/
 }
 
-
 .master-container p, h3, h2 {
   font-family: 'Barlow Semi Condensed', sans-serif;
+  display: flex;
+  flex-direction: row;
 }
