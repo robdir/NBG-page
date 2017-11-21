@@ -1,21 +1,21 @@
 import React, { PureComponent } from 'react';
-import {HorizontalBar} from 'react-chartjs-2';
+import {Bar} from 'react-chartjs-2';
 
-class HorizontalChart extends PureComponent {
+class JobVerticalBar extends PureComponent {
   constructor(props){
     super(props);
     this.state = {
       chartData: {
-        labels: ['Minimum salary', 'Maximum salary'],
+        labels: ['Baankans AVG Nederland', 'Baankans Webdeveloper'],
         datasets: [
           {
-            label: 'Salaris indicatie Webdeveloper',
+            label: 'Baankans',
             backgroundColor: ['rgba(255,142,21,1)','rgba(255,100,21,1)'],
             borderColor: 'rgba(255,99,132,1)',
             borderWidth: 1,
             hoverBackgroundColor: 'rgba(255,99,132,0.4)',
             hoverBorderColor: 'rgba(255,142,21,1)',
-            data: [2300, 3200, 4300]
+            data: [79.5, 99, 100]
           },
         ]
       },
@@ -32,6 +32,7 @@ class HorizontalChart extends PureComponent {
                 stacked: true
                 }],
               xAxes: [{
+                barThickness: 100,
                 stacked: true
               }]
             }
@@ -42,13 +43,13 @@ class HorizontalChart extends PureComponent {
   render() {
     return (
       <div>
-        <HorizontalBar
+        <Bar
         data={this.state.chartData}
-        options={this.state.chartOptions} />
+        options={this.state.chartOptions}/>
       </div>
     );
   }
 }
 
 
-export default HorizontalChart
+export default JobVerticalBar
