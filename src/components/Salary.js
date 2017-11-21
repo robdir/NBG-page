@@ -8,7 +8,8 @@ class Salary extends Component {
   render() {
     return(
         <div className="salary-container">
-            <h3> Salary div </h3>
+            <h2> Salaris Overzicht  </h2>
+            <hr/>
         </div>
       )
     }

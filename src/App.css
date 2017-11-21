@@ -5,26 +5,6 @@ font-family: 'Barlow Semi Condensed', sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -39,10 +19,12 @@ font-family: 'Barlow Semi Condensed', sans-serif;
   box-shadow: 7px 6px 5px 1px #542b2b;
   margin: 10px, 0, 0, 5em;
   padding: 10px;
-  border: solid 10px #d32f2f;
+  /*border-bottom: solid 5px #ff8f16;
+  border-left: solid 5px #ff8f16;
+  border-right: solid 5px #ff8f16;*/
 }
 
 
-.master-container p, h3 {
+.master-container p, h3, h2 {
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
