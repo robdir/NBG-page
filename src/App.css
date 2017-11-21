@@ -1,3 +1,6 @@
+font-family: 'Barlow Semi Condensed', sans-serif;
+
+
 .App {
   text-align: center;
 }
@@ -31,19 +34,15 @@
   }
 }
 
-.salary-container {
-  width: 90%;
-  height: 30%;
-  box-shadow: 7px 6px 5px 1px #542b2b;
-  margin: 2em;
-  border: solid 2px black;
-}
-
 .master-container {
-  width: 100%;
-  height: 20em;
+  max-width: 100%;
   box-shadow: 7px 6px 5px 1px #542b2b;
   margin: 10px, 0, 0, 5em;
   padding: 10px;
-  border: solid 10px green;
+  border: solid 10px #d32f2f;
+}
+
+
+.master-container p, h3 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
 }

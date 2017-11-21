@@ -4,6 +4,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import muiTheme from './assets/styles/theme';
 import Navigation from './components/Navigation';
 import Salary from './components/Salary';
+import Description from './components/Description'
 import './App.css';
 
 
@@ -22,6 +23,7 @@ class App extends Component {
         <div className="App">
         <Navigation />
         <div className="master-container">
+        <Description />
         <Salary />
         </div>
         </div>

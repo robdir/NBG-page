@@ -1,0 +1,7 @@
+.salary-container {
+  width: 90%;
+  height: 30%;
+  box-shadow: 7px 6px 5px 1px #542b2b;
+  margin: 2em;
+  border: solid 2px black;
+}

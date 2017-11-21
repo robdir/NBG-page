@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import './Salary.css'
 
 class Salary extends Component {
 
@@ -7,10 +8,10 @@ class Salary extends Component {
   render() {
     return(
         <div className="salary-container">
-            <h1> Salary div </h1>
+            <h3> Salary div </h3>
         </div>
       )
-      }
+    }
 }
 
 export default Salary
