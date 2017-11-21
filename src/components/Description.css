@@ -1,5 +1,6 @@
 .description-container {
   box-shadow: 7px 6px 5px 1px #542b2b;
+  max-width: 80%;
   margin: 3em;
   padding: 15px;
   background-color: #f5fbfd;
