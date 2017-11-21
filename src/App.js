@@ -5,7 +5,7 @@ import muiTheme from './assets/styles/theme';
 import Navigation from './components/Navigation';
 import Salary from './components/Salary';
 import Competences from './components/Competences';
-
+import Jobmarket from './components/Jobmarket'
 
 import Description from './components/Description'
 import Network from './components/Network'
@@ -29,9 +29,11 @@ class App extends Component {
         <Navigation />
         <div className="master-container">
         <Description />
-        <Network />
         <Salary />
         <Competences />
+        <Network />
+        <Jobmarket />
+
         </div>
         </div>
       </MuiThemeProvider>
