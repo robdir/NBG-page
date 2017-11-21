@@ -15,7 +15,7 @@ class HorizontalChart extends PureComponent {
             borderWidth: 1,
             hoverBackgroundColor: 'rgba(255,99,132,0.4)',
             hoverBorderColor: 'rgba(255,142,21,1)',
-            data: [2300, 3200, 4300]
+            data: [2300, 4300]
           },
         ]
       },
@@ -26,13 +26,19 @@ class HorizontalChart extends PureComponent {
             },
             scales: {
               yAxes: [{
-              ticks: {
-                beginAtZero: true
-              },
-                stacked: true
-                }],
+                ticks: {
+                  beginAtZero: false,
+                  suggestedMin: 1500,
+                      },
+                      stacked: true
+                    }],
               xAxes: [{
-                stacked: true
+                stacked: true,
+                ticks: {
+                  beginAtZero: false,
+                  suggestedMin: 1500,
+                },
+
               }]
             }
           }
