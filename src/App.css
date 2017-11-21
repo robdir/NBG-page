@@ -23,6 +23,27 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.salary-container {
+  width: 90%;
+  height: 30%;
+  box-shadow: 7px 6px 5px 1px #542b2b;
+  margin: 2em;
+  border: solid 2px black;
+}
+
+.master-container {
+  width: 100%;
+  height: 20em;
+  box-shadow: 7px 6px 5px 1px #542b2b;
+  margin: 10px, 0, 0, 5em;
+  padding: 10px;
+  border: solid 10px green;
 }
