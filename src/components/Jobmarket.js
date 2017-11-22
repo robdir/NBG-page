@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './Jobmarket.css'
-import JobVerticalBar from './JobVerticalBar';
+import './styles/Jobmarket.css'
+import JobVerticalBar from '../graphs/JobVerticalBar';
 
 class Jobmarket extends Component {
 
