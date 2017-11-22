@@ -1,0 +1,45 @@
+.personality-container {
+  box-shadow: 7px 6px 5px 1px #542b2b;
+  max-width: 80%;
+  margin: 3em;
+  padding: 15px;
+  background-color: #f5fbfd;
+  border: solid 2px #c9d9e6;
+  border-radius: 15px;
+}
+
+.personality-items {
+  display: flex;
+  box-shadow: none;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex: column;
+}
+
+.personality-type {
+  background-color: #ff8e15;
+  color: #ffffff;
+  border-radius: 50px;
+  min-width: 6em;
+  padding: 1em;
+  margin: 1em;
+  text-align: center;
+}
+
+.personality-type .personality-text {
+  visibility: hidden;
+  width: 400px;
+  background-color: #f5fbfd;
+  color: #000000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  /* Position the text */
+  position: absolute;
+  z-index: 1;
+  border: solid 1px black;
+}
+
+.personality-type:hover .personality-text {
+  visibility: visible;
+}

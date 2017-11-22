@@ -25,11 +25,25 @@ class JobVerticalBar extends PureComponent {
             hoverBackgroundColor: 'rgba(255,99,132,0.4)',
             data: [79.5, 31.5]
           },
-
         ]
       },
       chartOptions: {
             maintainAspectRatio: false,
+            tooltips: {
+              mode: 'x-axis'
+            },
+            scales: {
+              yAxes: [{
+              ticks: {
+                beginAtZero: true
+              },
+                stacked: true
+                }],
+              xAxes: [{
+                barThickness: 100,
+                stacked: true
+              }]
+            }
             responsive:true
 
           }

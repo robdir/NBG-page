@@ -5,12 +5,12 @@ import muiTheme from './assets/styles/theme';
 import Navigation from './components/Navigation';
 import Salary from './components/Salary';
 import Competences from './components/Competences';
-import Jobmarket from './components/Jobmarket';
+import Jobmarket from './components/Jobmarket'
+import Education from './components/Education'
 import Books from './components/Books';
-
-
 import Description from './components/Description'
 import Network from './components/Network'
+import Personality from './components/Personality'
 import './App.css';
 
 
@@ -29,14 +29,15 @@ class App extends Component {
       <MuiThemeProvider muiTheme={muiTheme}>
         <div className="App">
         <Navigation />
-          <div className="master-container">
-              <Description />
-              <Salary />
-              <Competences />
-              <Network />
-              <Jobmarket />
-
-            </div>
+        <div className="master-container">
+        <Description />
+        <Salary />
+        <Competences />
+        <Personality />
+        <Network />
+        <Jobmarket />
+        <Education />
+        </div>
         </div>
       </MuiThemeProvider>
     )
