@@ -11,6 +11,8 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -26,16 +28,21 @@
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
+
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <script src="https://4d9ae17c5ae68590ce6f-1c6f7d77e67457fef78cfb90b7e69696.ssl.cf3.rackcdn.com/assets/springsense.js"></script>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <script>
+       $(document).ready(function() {
+       Springest.setApiKey('fbd3a11518cdec9823666192b64963c0a20f18f20f9743b5b46ce4cab9e0919e');
+       var job_title = 'Developer';
+       var container_id = ".springest-courses";
+       Springest.getTrainings(job_title, container_id);
+       });
+    </script>
+
+
   </body>
 </html>
+<!-- document.addEventListener("DOMContentLoaded", function() { -->
