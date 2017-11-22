@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Description.css'
+import './styles/Description.css'
 
 class Description extends Component {
 

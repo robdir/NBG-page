@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Flow from '../images/devflow.png';
-import './Network.css'
+import './styles/Network.css'
 
 class Network extends Component {
 

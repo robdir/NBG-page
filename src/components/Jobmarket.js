@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './Jobmarket.css'
-import JobVerticalBar from './JobVerticalBar';
+import './styles/Jobmarket.css'
+import JobVerticalBar from '../graphs/JobVerticalBar';
 
 class Jobmarket extends Component {
 
@@ -25,7 +25,7 @@ class Jobmarket extends Component {
               <p>
               This score is calculated through data recieved from Intelligence Group & <a href="#"> arbeitsmarktkansen.nl</a>
               </p>
-              <p>The graph above indicates one of the factors contributing to the 'Zeer Goed' score of a career as a Web developer.</p> 
+              <p>The graph above indicates one of the factors contributing to the 'Zeer Goed' score of a career as a Web developer.</p>
               <div className="IG-container">
                 <div className="score">
                 </div>

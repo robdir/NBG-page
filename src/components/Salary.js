@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './Salary.css'
-import HorizontalChart from './HorizontalBar';
+import './styles/Salary.css'
+import HorizontalChart from '../graphs/HorizontalBar';
 
 class Salary extends Component {
 
