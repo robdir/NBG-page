@@ -6,24 +6,23 @@ class JobVerticalBar extends PureComponent {
     super(props);
     this.state = {
       chartData: {
-        labels: ['Gemiddelde Baankans Nederland', 'Baankans Webdeveloper'],
+        labels: ['Gemiddelde Baankans Webdeveloper', 'Baankans '],
         datasets: [
           {
-            label: 'Gemiddelde Baankans Nederland',
+            label: 'Gemiddelde Baankans Nederland %',
             backgroundColor: ['rgba(255,10,21,1)','rgba(0,0,0,0)'],
             borderColor: 'rgba(255,99,132,1)',
             borderWidth: 1,
             hoverBackgroundColor: 'rgba(255,99,132,0.4)',
-            hoverBorderColor: 'rgba(255,142,21,1)',
             data: [99, 2]
           },
+
           {
-            label: 'Baankans Webdeveloper',
+            label: 'Baankans Webdeveloper %',
             backgroundColor: ['rgba(255,100,21,1)', 'rgba(0,0,0,0)'],
             borderColor: 'rgba(255,99,132,1)',
-            borderWidth: 2,
+            borderWidth: 0,
             hoverBackgroundColor: 'rgba(255,99,132,0.4)',
-            hoverBorderColor: 'rgba(255,142,21,1)',
             data: [79.5, 31.5]
           },
 
@@ -31,7 +30,6 @@ class JobVerticalBar extends PureComponent {
       },
       chartOptions: {
             maintainAspectRatio: false,
-
 
           }
     }
