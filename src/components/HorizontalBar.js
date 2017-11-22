@@ -21,6 +21,7 @@ class HorizontalChart extends PureComponent {
       },
       chartOptions: {
             maintainAspectRatio: false,
+            responsive:true,
             tooltips: {
               mode: 'x-axis'
             },
