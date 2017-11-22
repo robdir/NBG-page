@@ -1,11 +1,12 @@
 .competences-container {
   box-shadow: 7px 6px 5px 1px #542b2b;
-  max-width: 80%;
-  margin: 3em;
+  max-width: 40%;
+  margin: 1em;
   padding: 15px;
   background-color: #f5fbfd;
   border: solid 2px #c9d9e6;
   border-radius: 15px;
+  height: fit-content;
 }
 
 .competences-items {
@@ -42,4 +43,9 @@
 
 .competency:hover .competency-text {
   visibility: visible;
+}
+
+.competency:hover {
+  background-color: #fdb76cf7;
+  ;
 }

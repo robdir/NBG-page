@@ -21,6 +21,7 @@ class HorizontalChart extends PureComponent {
       },
       chartOptions: {
             maintainAspectRatio: false,
+            responsive:true,
             tooltips: {
               mode: 'x-axis'
             },
@@ -50,7 +51,9 @@ class HorizontalChart extends PureComponent {
       <div>
         <HorizontalBar
         data={this.state.chartData}
-        options={this.state.chartOptions} />
+        width={500}
+        height={100}
+        options={this.state.chartOptions}/>
       </div>
     );
   }

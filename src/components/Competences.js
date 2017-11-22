@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import './Competences.css'
+import './styles/Competences.css'
 
 class Competences extends Component {
-
 
   render() {
     return(
