@@ -1,0 +1,296 @@
+"products": [
+        {
+            "id": "9200000052361215",
+            "ean": "9780241237854",
+            "gpc": "book",
+            "title": "Blockchain Revolution",
+            "subtitle": " How the Technology Behind Bitcoin Is Changing Money, Business and the World",
+            "specsTag": "Don Tapscott",
+            "summary": "Engelstalig | Paperback | 2016",
+            "rating": 43,
+            "shortDescription": "The first book to explain why blockchain technology will fundamentally change our lives<br /><br />Blockchain is the ingeniously simple technology that powers Bitcoin. But it is much more than that, too. It is a public ledger to which everyone has access, but which no single person controls. It allows for companies and individuals to collaborate with an unprecedented degree of trust and transparency. It is cryptographically secure, but fundamentally open. And soon it will be everywhere.<br /><br />In Blockchain Revolut...",
+            "longDescription": "The first book to explain why blockchain technology will fundamentally change our lives<br /><br />Blockchain is the ingeniously simple technology that powers Bitcoin. But it is much more than that, too. It is a public ledger to which everyone has access, but which no single person controls. It allows for companies and individuals to collaborate with an unprecedented degree of trust and transparency. It is cryptographically secure, but fundamentally open. And soon it will be everywhere.<br /><br />In Blockchain Revolution, Don and Alex Tapscott reveal how this game-changing technology will shape the future of the world economy, dramatically improving everything from healthcare records to online voting, and from insurance claims to artist royalty payments. Brilliantly researched and highly accessible, this is the essential text on the next major paradigm shift. Read it, or be left behind.<br /><br />Don Tapscott is one of the most influential living theorists about business and society. He is the bestselling author of Wikinomics, The Digital Economy, and a dozen other acclaimed books about tech\u00adnology, business, and society.<br /><br />Alex Tapscott is the CEO and founder of Northwest Passage Ventures, an advisory firm building blockchain companies. Previously, he worked for seven years in investment banking in New York and Toronto.",
+            "urls": [
+                {
+                    "key": "DESKTOP",
+                    "value": "https://www.bol.com/nl/p/blockchain-revolution/9200000052361215/"
+                },
+                {
+                    "key": "MOBILE",
+                    "value": "https://www.bol.com/nl/p/blockchain-revolution/9200000052361215/"
+                }
+            ],
+            "images": [
+                {
+                    "type": "IMAGE",
+                    "key": "XS",
+                    "url": "http://s.s-bol.com/imgbase0/imagebase3/mini/FC/5/1/2/1/9200000052361215.jpg"
+                },
+                {
+                    "type": "IMAGE",
+                    "key": "S",
+                    "url": "http://s.s-bol.com/imgbase0/imagebase3/tout/FC/5/1/2/1/9200000052361215.jpg"
+                },
+                {
+                    "type": "IMAGE",
+                    "key": "M",
+                    "url": "http://s.s-bol.com/imgbase0/imagebase3/thumb/FC/5/1/2/1/9200000052361215.jpg"
+                },
+                {
+                    "type": "IMAGE",
+                    "key": "L",
+                    "url": "http://s.s-bol.com/imgbase0/imagebase3/regular/FC/5/1/2/1/9200000052361215.jpg"
+                },
+                {
+                    "type": "IMAGE",
+                    "key": "XL",
+                    "url": "http://s.s-bol.com/imgbase0/imagebase3/large/FC/5/1/2/1/9200000052361215.jpg"
+                }
+            ],
+            "media": [
+                {
+                    "type": "IMAGE",
+                    "key": "XL",
+                    "url": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/5/1/2/1/9200000052361215.jpg"
+                },
+                {
+                    "type": "IMAGE",
+                    "key": "XL",
+                    "url": "https://s.s-bol.com/imgbase0/imagebase3/backcover/large/FC/5/1/2/1/9200000052361215.jpg"
+                }
+            ],
+            "offerData": {
+                "bolCom": 1,
+                "nonProfessionalSellers": 0,
+                "professionalSellers": 0,
+                "offers": [
+                    {
+                        "id": "9200000052361215",
+                        "condition": "Nieuw",
+                        "price": 16.49,
+                        "availabilityCode": "170",
+                        "availabilityDescription": "Op voorraad. Voor 23:59 uur besteld, morgen in huis",
+                        "comment": "Op voorraad. Voor 23:59 uur besteld, morgen in huis",
+                        "seller": {
+                            "id": "0",
+                            "sellerType": "bol.com",
+                            "displayName": "bol.com",
+                            "url": "www.bol.com",
+                            "topSeller": false,
+                            "useWarrantyRepairConditions": false
+                        },
+                        "bestOffer": true,
+                        "releaseDate": "2016-05-09T00:00:00.000+02:00"
+                    }
+                ]
+            },
+            "parentCategoryPaths": [
+                {
+                    "parentCategories": [
+                        {
+                            "id": "23934",
+                            "name": "Studie & Management"
+                        },
+                        {
+                            "id": "24040",
+                            "name": "Techniek & Technologie"
+                        },
+                        {
+                            "id": "24045",
+                            "name": "Informatica"
+                        }
+                    ]
+                },
+                {
+                    "parentCategories": [
+                        {
+                            "id": "23934",
+                            "name": "Studie & Management"
+                        },
+                        {
+                            "id": "23935",
+                            "name": "Economie & Bedrijf"
+                        },
+                        {
+                            "id": "23940",
+                            "name": "Economie"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "9200000082228285",
+            "ean": "9789082748505",
+            "gpc": "book",
+            "title": "The 3D Printing Handbook: Technologies, design and applications",
+            "specsTag": "Ben Redwood",
+            "summary": "Engelstalig | Hardcover",
+            "rating": 0,
+            "shortDescription": "<h3><b>If you’re a professional looking to master the key aspects of 3D printing, this book is for you.</b></h3>The 3D Printing Handbook provides practical advice on selecting the right technology and how-to design for 3D printing, based upon first-hand experience from the industry’s leading experts.<br />In this book:<br /><ul><li>• The mechanisms behind all major 3D printing technologies</li><li>• The benefits and limitations of each technology</li><li>• Decision making tools for technology selection</li><li>• Actionable design advice and guidelines</li><li>• Indu...</li></ul>",
+            "longDescription": "<h3><b>If you’re a professional looking to master the key aspects of 3D printing, this book is for you.</b></h3>The 3D Printing Handbook provides practical advice on selecting the right technology and how-to design for 3D printing, based upon first-hand experience from the industry’s leading experts.<br />In this book:<br /><ul><li>• The mechanisms behind all major 3D printing technologies</li><li>• The benefits and limitations of each technology</li><li>• Decision making tools for technology selection</li><li>• Actionable design advice and guidelines</li><li>• Industry case studies from world-leading brands</li></ul><br />“An impressive job capturing the most important elements of 3D printing in an easy-to-understand and visually dynamic manner.”<br />- <b>Michael Molitch-Hou, engineering.com</b><br /><br />“This book acts as a much-needed resource for designers and engineers at any level of experience to better understand [3D printing] technology.”<br />- <b>Sarah Goehrke, 3dprint.com</b><br /><br /><br />“Whether you are a novice or a well aged veteran, you will certainly find many things you don’t yet know in this book.”<br />- <b>Kerry Stevenson, fabbaloo.com</b><br /><br />“3D Hubs draw on the thousands of 3D printing hours they have clocked up and bring this experience to the reader”<br />- <b>Michael Petch, 3dprintingindustry.com</b><br /><br />",
+            "urls": [
+                {
+                    "key": "DESKTOP",
+                    "value": "https://www.bol.com/nl/p/the-3d-printing-handbook-technologies-design-and-applications/9200000082228285/"
+                },
+                {
+                    "key": "MOBILE",
+                    "value": "https://www.bol.com/nl/p/the-3d-printing-handbook-technologies-design-and-applications/9200000082228285/"
+                }
+            ],
+            "images": [
+                {
+                    "type": "IMAGE",
+                    "key": "XS",
+                    "url": "http://s.s-bol.com/imgbase0/imagebase3/mini/FC/5/8/2/8/9200000082228285.jpg"
+                },
+                {
+                    "type": "IMAGE",
+                    "key": "S",
+                    "url": "http://s.s-bol.com/imgbase0/imagebase3/tout/FC/5/8/2/8/9200000082228285.jpg"
+                },
+                {
+                    "type": "IMAGE",
+                    "key": "M",
+                    "url": "http://s.s-bol.com/imgbase0/imagebase3/thumb/FC/5/8/2/8/9200000082228285.jpg"
+                },
+                {
+                    "type": "IMAGE",
+                    "key": "L",
+                    "url": "http://s.s-bol.com/imgbase0/imagebase3/regular/FC/5/8/2/8/9200000082228285.jpg"
+                },
+                {
+                    "type": "IMAGE",
+                    "key": "XL",
+                    "url": "http://s.s-bol.com/imgbase0/imagebase3/large/FC/5/8/2/8/9200000082228285.jpg"
+                },
+                {
+                    "type": "IMAGE",
+                    "key": "XXL",
+                    "url": "http://s.s-bol.com/imgbase0/imagebase3/extralarge/FC/5/8/2/8/9200000082228285.jpg"
+                }
+            ],
+            "media": [
+                {
+                    "type": "IMAGE",
+                    "key": "XL",
+                    "url": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/5/8/2/8/9200000082228285.jpg"
+                },
+                {
+                    "type": "IMAGE",
+                    "key": "XL",
+                    "url": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/5/8/2/8/9200000082228285_2.jpg"
+                },
+                {
+                    "type": "IMAGE",
+                    "key": "XL",
+                    "url": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/5/8/2/8/9200000082228285_3.jpg"
+                },
+                {
+                    "type": "IMAGE",
+                    "key": "XL",
+                    "url": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/5/8/2/8/9200000082228285_4.jpg"
+                },
+                {
+                    "type": "IMAGE",
+                    "key": "XL",
+                    "url": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/5/8/2/8/9200000082228285_5.jpg"
+                },
+                {
+                    "type": "IMAGE",
+                    "key": "XL",
+                    "url": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/5/8/2/8/9200000082228285_6.jpg"
+                },
+                {
+                    "type": "IMAGE",
+                    "key": "XL",
+                    "url": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/5/8/2/8/9200000082228285_7.jpg"
+                },
+                {
+                    "type": "IMAGE",
+                    "key": "XL",
+                    "url": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/5/8/2/8/9200000082228285_8.jpg"
+                },
+                {
+                    "type": "IMAGE",
+                    "key": "XL",
+                    "url": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/5/8/2/8/9200000082228285_9.jpg"
+                }
+            ],
+            "offerData": {
+                "bolCom": 0,
+                "nonProfessionalSellers": 0,
+                "professionalSellers": 1,
+                "offers": [
+                    {
+                        "id": "1001030718861197",
+                        "condition": "Nieuw",
+                        "price": 29,
+                        "availabilityCode": "170",
+                        "availabilityDescription": "Op voorraad. Voor 23:59 uur besteld, morgen in huis",
+                        "comment": "Op voorraad. Voor 23:59 uur besteld, morgen in huis",
+                        "seller": {
+                            "id": "1301435",
+                            "sellerType": "Kleinzakelijke verkoper",
+                            "displayName": "3D Hubs B.V.",
+                            "topSeller": false,
+                            "sellerRating": {
+                                "ratingMethod": "ALL_REVIEWS",
+                                "sellerRating": "9.5",
+                                "productInformationRating": "9.5",
+                                "deliveryTimeRating": "8.5",
+                                "shippingRating": "9.0",
+                                "serviceRating": "-"
+                            },
+                            "recentReviewCounts": {
+                                "positiveReviewCount": 4,
+                                "neutralReviewCount": 0,
+                                "negativeReviewCount": 0,
+                                "totalReviewCount": 4
+                            },
+                            "allReviewsCounts": {
+                                "positiveReviewCount": 4,
+                                "neutralReviewCount": 0,
+                                "negativeReviewCount": 0,
+                                "totalReviewCount": 4
+                            },
+                            "useWarrantyRepairConditions": false,
+                            "approvalPercentage": "100",
+                            "registrationDate": "2017-08-29T00:00:00.000+02:00"
+                        },
+                        "bestOffer": true
+                    }
+                ]
+            },
+            "parentCategoryPaths": [
+                {
+                    "parentCategories": [
+                        {
+                            "id": "23934",
+                            "name": "Studie & Management"
+                        },
+                        {
+                            "id": "24040",
+                            "name": "Techniek & Technologie"
+                        },
+                        {
+                            "id": "24045",
+                            "name": "Informatica"
+                        }
+                    ]
+                },
+                {
+                    "parentCategories": [
+                        {
+                            "id": "2666",
+                            "name": "Hobby, Huis & Natuur"
+                        },
+                        {
+                            "id": "1554",
+                            "name": "Spellen, Computers & Games"
+                        }
+                    ]
+                }
+            ]
+        }]

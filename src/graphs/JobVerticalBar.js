@@ -30,6 +30,7 @@ class JobVerticalBar extends PureComponent {
       },
       chartOptions: {
             maintainAspectRatio: false,
+            responsive:true
 
           }
     }

@@ -7,7 +7,7 @@ import Salary from './components/Salary';
 import Competences from './components/Competences';
 import Jobmarket from './components/Jobmarket';
 import Books from './components/Books';
-import Bol from './API/bol'
+
 
 import Description from './components/Description'
 import Network from './components/Network'
@@ -35,8 +35,7 @@ class App extends Component {
               <Competences />
               <Network />
               <Jobmarket />
-              <Books />
-              <Bol />
+
             </div>
         </div>
       </MuiThemeProvider>
