@@ -9,6 +9,7 @@ import Jobmarket from './components/Jobmarket'
 import Education from './components/Education'
 import Description from './components/Description'
 import Network from './components/Network'
+import Personality from './components/Personality'
 import './App.css';
 
 
@@ -31,6 +32,7 @@ class App extends Component {
         <Description />
         <Salary />
         <Competences />
+        <Personality />
         <Network />
         <Jobmarket />
         <Education />
