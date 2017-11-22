@@ -3,7 +3,6 @@ import './styles/Description.css'
 
 class Description extends Component {
 
-
   render() {
     return(
         <div className="description-container">

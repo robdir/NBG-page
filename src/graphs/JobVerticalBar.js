@@ -1,21 +1,29 @@
 import React, { PureComponent } from 'react';
-import {Bar} from 'react-chartjs-2';
+import {Doughnut} from 'react-chartjs-2';
 
 class JobVerticalBar extends PureComponent {
   constructor(props){
     super(props);
     this.state = {
       chartData: {
-        labels: ['Baankans AVG Nederland', 'Baankans Webdeveloper'],
+        labels: ['Gemiddelde Baankans Webdeveloper', 'Baankans '],
         datasets: [
           {
-            label: 'Baankans',
-            backgroundColor: ['rgba(255,142,21,1)','rgba(255,100,21,1)'],
+            label: 'Gemiddelde Baankans Nederland %',
+            backgroundColor: ['rgba(255,10,21,1)','rgba(0,0,0,0)'],
             borderColor: 'rgba(255,99,132,1)',
             borderWidth: 1,
             hoverBackgroundColor: 'rgba(255,99,132,0.4)',
-            hoverBorderColor: 'rgba(255,142,21,1)',
-            data: [79.5, 99, 100]
+            data: [99, 2]
+          },
+
+          {
+            label: 'Baankans Webdeveloper %',
+            backgroundColor: ['rgba(255,100,21,1)', 'rgba(0,0,0,0)'],
+            borderColor: 'rgba(255,99,132,1)',
+            borderWidth: 0,
+            hoverBackgroundColor: 'rgba(255,99,132,0.4)',
+            data: [79.5, 31.5]
           },
         ]
       },
@@ -36,6 +44,8 @@ class JobVerticalBar extends PureComponent {
                 stacked: true
               }]
             }
+            responsive:true
+
           }
     }
   }
@@ -43,7 +53,7 @@ class JobVerticalBar extends PureComponent {
   render() {
     return (
       <div>
-        <Bar
+        <Doughnut
         data={this.state.chartData}
         options={this.state.chartOptions}/>
       </div>
