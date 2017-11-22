@@ -29,21 +29,6 @@ class JobVerticalBar extends PureComponent {
       },
       chartOptions: {
             maintainAspectRatio: false,
-            tooltips: {
-              mode: 'x-axis'
-            },
-            scales: {
-              yAxes: [{
-              ticks: {
-                beginAtZero: true
-              },
-                stacked: true
-                }],
-              xAxes: [{
-                barThickness: 100,
-                stacked: true
-              }]
-            }
             responsive:true
 
           }
