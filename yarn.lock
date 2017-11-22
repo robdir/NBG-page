@@ -1007,6 +1007,12 @@ body-parser@1.18.2:
     raw-body "2.3.2"
     type-is "~1.6.15"
 
+bolcom@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/bolcom/-/bolcom-1.2.1.tgz#c912d6e05d527c0105ae9f9e4d0188bfcedf9bdd"
+  dependencies:
+    httpreq "^0.4.22"
+
 bonjour@^3.5.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/bonjour/-/bonjour-3.5.0.tgz#8e890a183d8ee9a2393b3844c691a42bcf7bc9f5"
@@ -3106,6 +3112,10 @@ http-signature@~1.2.0:
     assert-plus "^1.0.0"
     jsprim "^1.2.2"
     sshpk "^1.7.0"
+
+httpreq@^0.4.22:
+  version "0.4.24"
+  resolved "https://registry.yarnpkg.com/httpreq/-/httpreq-0.4.24.tgz#4335ffd82cd969668a39465c929ac61d6393627f"
 
 https-browserify@^1.0.0:
   version "1.0.0"

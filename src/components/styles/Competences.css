@@ -44,3 +44,8 @@
 .competency:hover .competency-text {
   visibility: visible;
 }
+
+.competency:hover {
+  background-color: #fdb76cf7;
+  ;
+}
