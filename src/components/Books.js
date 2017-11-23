@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './styles/Books.css'
+import './styles/Container_styles.css'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { UpdateBooks } from '../actions/books'
@@ -31,7 +31,7 @@ class Books extends Component {
 
   render() {
     return(
-      <div className="books-container">
+      <div className="container books">
         <h2>Recommended Books </h2>
         <hr/>
       <div className="slider">

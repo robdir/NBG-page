@@ -1,14 +1,4 @@
-.personality-container {
-  box-shadow: 7px 6px 5px 1px #542b2b;
-  max-width: 30%;
-  margin: 1em;
-  padding: 15px;
-  background-color: #f5fbfd;
-  border: solid 2px #c9d9e6;
-  border-radius: 15px;
-}
-
-.personality-items {
+.bubble-items {
   display: flex;
   box-shadow: none;
   justify-content: flex-start;
@@ -16,7 +6,7 @@
   flex: column;
 }
 
-.personality-type {
+.bubble {
   background-color: #ff8e15;
   color: #ffffff;
   border-radius: 50px;
@@ -26,7 +16,7 @@
   text-align: center;
 }
 
-.personality-type .personality-text {
+.bubble .bubble-pop-up-text {
   visibility: hidden;
   width: 400px;
   background-color: #f5fbfd;
@@ -40,6 +30,11 @@
   border: solid 1px black;
 }
 
-.personality-type:hover .personality-text {
+.bubble:hover .bubble-pop-up-text {
   visibility: visible;
+}
+
+.bubble:hover {
+  background-color: #fdb76cf7;
+  ;
 }
