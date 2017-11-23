@@ -5,15 +5,11 @@
   margin-top: 5px;
   margin-bottom: 15px;
 }
-
 .score {
   width: 60%;
   float: left;
   background: #65a75b;
   border: 1px solid black;
   box-sizing: border-box;
-<<<<<<< HEAD
-=======
   height: 100%;
->>>>>>> 493e8d7914d3c6e377fce73929f02d712ba8468a
 }
