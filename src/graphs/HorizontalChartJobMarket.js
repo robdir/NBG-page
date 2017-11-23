@@ -10,11 +10,10 @@ class HorizontalChartJobMarket extends PureComponent {
         labels: ['Baankans Webdeveloper 99%', 'Gemiddelde Baankans Nederland 79.5%'],
         datasets: [
           {
-            label: ['Baankans'],
-            backgroundColor: ['#14BCF0'],
+            label: ['Baankans WebDeveloper Zeer goed'],
+            backgroundColor: ['#65a75b', '#e5e5e5'],
             borderWidth: 0.1,
-            hoverBackgroundColor: 'rgba(255,99,132,0.4)',
-            hoverBorderColor: 'rgba(255,142,21,1)',
+            hoverBackgroundColor: '#14BCF0',
             data: [99, 79.5]
           },
         ]
@@ -24,19 +23,18 @@ class HorizontalChartJobMarket extends PureComponent {
             responsive:true,
             barPercentage:0.9,
             categoryPercentage: 1.0,
-            tooltips: {
-              mode: 'x-axis'
-            },
             scales: {
               yAxes: [{
+                gridLines: {
+                   color: "rgba(0, 0, 0, 0)",
+               },
                 ticks: {
-                  beginAtZero: false,
+                  beginAtZero: true,
                   suggestedMin: 1500,
                       },
 
                     }],
               xAxes: [{
-                stacked: true,
                 ticks: {
                   beginAtZero: false,
                   suggestedMin: 1500,
@@ -61,7 +59,7 @@ class HorizontalChartJobMarket extends PureComponent {
 
   render() {
     return (
-      <div className="doughnut">
+      <div className="chart-jobmarket">
         <Bar data={this.state.chartData} options={this.state.chartOptions} />
       </div>
     );
