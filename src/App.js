@@ -32,15 +32,14 @@ class App extends Component {
         <Navigation />
         <Banner />
         <div className="master-container">
-        <Jobmarket />
         <Description />
+        <Jobmarket />
+        <Books />
         <Salary />
         <Competences />
+        <Education />
         <Personality />
         <Network />
-
-        <Education />
-        <Books />
         </div>
         </div>
       </MuiThemeProvider>

@@ -30,6 +30,9 @@ class NodeNetwork extends PureComponent {
         },
         nodes: {
           shape: 'circle',
+        },
+        interaction: {
+          zoomView: false
         }
       },
 
