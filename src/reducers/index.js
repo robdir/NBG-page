@@ -1,5 +1,5 @@
-import updatebooks from './updatebooks'
+import books from './updatebooks'
 
 export default {
-  updatebooks,
+  books,
 }

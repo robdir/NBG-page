@@ -23,12 +23,13 @@ class Jobmarket extends Component {
               We hebben 5 scores: Zeer Goed, Goed, Redelijk, Matig en Slecht.
               </p>
               <p>
-              This score is calculated through data recieved from Intelligence Group & <a href="#"> arbeitsmarktkansen.nl</a>
+              This score is calculated through data recieved from Intelligence Group & <a href=""> arbeitsmarktkansen.nl</a>
               </p>
               <p>The graph above indicates one of the factors contributing to the 'Zeer Goed' score of a career as a Web developer.</p>
               <div className="IG-container">
                 <div className="score">
                 </div>
+
                 <p> -- Zeer goed </p>
               </div>
         </div>

@@ -37,6 +37,7 @@ class App extends Component {
         <Network />
         <Jobmarket />
         <Education />
+          <Books />
         </div>
         </div>
       </MuiThemeProvider>
