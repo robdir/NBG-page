@@ -13,7 +13,7 @@ class Navigation extends PureComponent {
       <AppBar
         title="NationaleBeroepenGids.nl"
         iconElementLeft={<IconButton ><ExpandMore /></IconButton>}
-        iconElementRight={<TextField leftIcon={<SearchIcon/>} underlineDisabledStyle="true" hintText="Zoeken naar..."/>}
+        iconElementRight={<TextField hintText="Zoeken naar..."/>}
         />
     )
   }

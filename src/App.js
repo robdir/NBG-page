@@ -8,6 +8,7 @@ import Competences from './components/Competences';
 import Jobmarket from './components/Jobmarket'
 import Education from './components/Education'
 import Books from './components/Books';
+import Banner from './components/Banner'
 import Description from './components/Description'
 import Network from './components/Network'
 import Personality from './components/Personality'
@@ -29,6 +30,7 @@ class App extends Component {
       <MuiThemeProvider muiTheme={muiTheme}>
         <div className="App">
         <Navigation />
+        <Banner />
         <div className="master-container">
         <Description />
         <Salary />
