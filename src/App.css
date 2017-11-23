@@ -28,3 +28,7 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 .master-container p, h3, h2 {
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
+
+.slick-prev:before, .slick-next:before {
+  color: #a71e1e;
+}
