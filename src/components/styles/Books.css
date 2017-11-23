@@ -1,10 +1,18 @@
 .books-container {
   box-shadow: 7px 6px 5px 1px #542b2b;
-  max-width: 40%;
+  max-width: 50%;
   margin: 1em;
   padding: 15px;
   background-color: #f5fbfd;
   border: solid 2px #c9d9e6;
   border-radius: 15px;
-  height: fit-content;
+  height: 15em;
+}
+
+.slider {
+  padding: 4em, 4em, 4em, 4em;
+}
+
+.slider img {
+  height: 120px;
 }
