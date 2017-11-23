@@ -9,18 +9,17 @@ class DoughnutChart extends PureComponent {
 
       chartData_chart1:{
           labels: [
-              'Red',
-              'Green'
+              'Baankans Webdeveloper 99%',
               ],
               datasets: [{
-                data: [99,5],
+                data: [99],
                 backgroundColor: [
-                  '#CCC',
-                  '#36A2EB'
+                  '#43B034',
+                  'rgba(0,0,0,0)'
                 ],
           hoverBackgroundColor: [
-            '#FF6384',
-            '#36A2EB',
+            '#51D140',
+            'rgba(0,0,0,0)',
               ]
             }],
 
@@ -28,41 +27,44 @@ class DoughnutChart extends PureComponent {
           },//chartdata1
 
           chartOptions_chart1:{
-              elements: {
-                      center: {
-                        text: 'Desktop',
-                         color: '#36A2EB',
-                              }
-                            }
-                          },
+              circumference: 6,
+            },
           chartData_chart2:{
-              labels: [
-                  'Grey',
-                  'Pink'
+            labels: [
+                'Gemiddelde Baankans Nederland 79.5%',
+                ],
+                datasets: [{
+                  data: [79.5],
+                  backgroundColor: [
+                    '#E6B334',
+                    'rgba(0,0,0,0)'
                   ],
-                  datasets: [{
-                    data: [79,31],
-                    backgroundColor: [
-                      '#CCC',
-                      '#36A2EB'
-                    ],
-              hoverBackgroundColor: [
-                '#FF6384',
-                '#36A2EB',
-                  ]
-                }]
+            hoverBackgroundColor: [
+              '#E7C369',
+              'rgba(0,0,0,0)',
+                ]
+              }],
 
-              }
 
-        }
+            },//chartdata1
+
+            chartOptions_chart2:{
+                circumference: 4,
+              },
+
+            } //this.state
+
       }
 
       render() {
         return (
           <div className="chart-container">
             <div className="single-chart"> <Doughnut data={this.state.chartData_chart1} options={this.state.chartOptions_chart1} />
+
+            <p>Zeer Goed </p>
             </div>
-                    <div className="single-chart"> <Doughnut data={this.state.chartData_chart2} />
+            <div className="single-chart"> <Doughnut data={this.state.chartData_chart2} options={this.state.chartOptions_chart2} />
+              <p> Goed </p>
             </div>
           </div>
         );
