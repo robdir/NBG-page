@@ -12,7 +12,5 @@ const enhancer = compose(
 )
 
 const store = createStore(reducer, enhancer)
-//const socket = io.connect('http://localhost:3002')
-//socket.on('action', payload => store.dispatch(payload))
 
 export default store

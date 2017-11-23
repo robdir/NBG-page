@@ -23,7 +23,7 @@ export const palette = {
   alternateTextColor: white,
   canvasColor: white,
   borderColor: grey,
-  disabledColor: grey30
+  disabledColor: grey30,
 }
 
 export default getMuiTheme({ palette })

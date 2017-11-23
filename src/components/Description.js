@@ -6,7 +6,7 @@ class Description extends Component {
   render() {
     return(
         <div className="container description">
-        <h2>Wat doet een webdeveloper? Lees de functieomschrijving: </h2>
+        <h2>Functieomschrijving: wat doet een Webdeveloper? </h2>
         <hr/>
           <p>De Webdeveloper heeft een combinatie van taken waar zowel technisch als creatief inzicht voor nodig is.
           Een Webdeveloper moet kunnen programmeren, redigeren en presenteren. De verdeling van deze taken is in elke functie anders,

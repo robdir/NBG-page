@@ -40,7 +40,7 @@ class App extends Component {
         <Network />
 
         <Education />
-          <Books />
+        <Books />
         </div>
         </div>
       </MuiThemeProvider>
