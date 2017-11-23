@@ -14,6 +14,11 @@
   background-color: WhiteSmoke;
 }
 
+.fishyfishy {
+  height: 300px;
+  width: 900px;
+}
+
 .container h2, h3 {
   text-align: center;
 }
