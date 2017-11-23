@@ -11,10 +11,7 @@ class Books extends Component {
   }
 
   static propTypes = {
-    books: PropTypes.arrayOf(PropTypes.shape({
-		    titel: PropTypes.string.isRequired,
-		    price: PropTypes.number.isRequired
-	}))
+    books: PropTypes.arrayOf(PropTypes.string)
   }
 
   render() {
@@ -22,11 +19,13 @@ class Books extends Component {
         <div className="books-container">
             <h2>Recommended Books </h2>
             <hr/>
-            <ol>
-            <li>
-              {this.props.books}
-              </li>
-        </ol>
+            <div className="Book" >
+              <ul>
+                {this.props.books.map((item,index) =>
+                  <li key={index}>{item}</li>
+                )}
+              </ul>
+              </div>
         </div>
       )
     }
@@ -34,7 +33,7 @@ class Books extends Component {
 
 const mapStateToProps = function(state){
   return{
-    updatebooks: state.books
+    books: state.books
   }
 }
 

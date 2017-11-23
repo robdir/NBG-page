@@ -29,6 +29,7 @@ class Jobmarket extends Component {
               <div className="IG-container">
                 <div className="score">
                 </div>
+
                 <p> -- Zeer goed </p>
               </div>
         </div>
