@@ -1,3 +1,4 @@
+<<<<<<< HEAD:src/components/styles/Personality.css
 .personality-container {
   box-shadow: 7px 6px 5px 1px #542b2b;
   max-width: 40%;
@@ -10,6 +11,9 @@
 }
 
 .personality-items {
+=======
+.bubble-items {
+>>>>>>> 493e8d7914d3c6e377fce73929f02d712ba8468a:src/components/styles/Bubble.css
   display: flex;
   box-shadow: none;
   justify-content: flex-start;
@@ -17,7 +21,7 @@
   flex: column;
 }
 
-.personality-type {
+.bubble {
   background-color: #ff8e15;
   color: #ffffff;
   border-radius: 50px;
@@ -27,7 +31,7 @@
   text-align: center;
 }
 
-.personality-type .personality-text {
+.bubble .bubble-pop-up-text {
   visibility: hidden;
   width: 400px;
   background-color: #f5fbfd;
@@ -41,6 +45,11 @@
   border: solid 1px black;
 }
 
-.personality-type:hover .personality-text {
+.bubble:hover .bubble-pop-up-text {
   visibility: visible;
+}
+
+.bubble:hover {
+  background-color: #fdb76cf7;
+  ;
 }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './styles/Container_styles.css'
 import './styles/Jobmarket.css'
 import JobVerticalBar from '../graphs/JobVerticalBar';
 
@@ -7,7 +8,7 @@ class Jobmarket extends Component {
 
   render() {
     return(
-        <div className="jobmarket-container">
+        <div className="container jobmarket">
           <h2>Arbeidsmarktperspectief en Doorgroeimogelijkheden Webdeveloper</h2>
             <hr/>
               <p>Er zijn voldoende mogelijkheden om als Webdeveloper een baan te kunnen krijgen,
@@ -23,12 +24,13 @@ class Jobmarket extends Component {
               We hebben 5 scores: Zeer Goed, Goed, Redelijk, Matig en Slecht.
               </p>
               <p>
-              This score is calculated through data recieved from Intelligence Group & <a href="#"> arbeitsmarktkansen.nl</a>
+              This score is calculated through data recieved from Intelligence Group & <a href=""> arbeitsmarktkansen.nl</a>
               </p>
               <p>The graph above indicates one of the factors contributing to the 'Zeer Goed' score of a career as a Web developer.</p>
               <div className="IG-container">
                 <div className="score">
                 </div>
+
                 <p> -- Zeer goed </p>
               </div>
         </div>

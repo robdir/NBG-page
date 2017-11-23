@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './styles/Salary.css'
+import './styles/Container_styles.css'
 import HorizontalChart from '../graphs/HorizontalBar';
 
 class Salary extends Component {
@@ -7,7 +7,7 @@ class Salary extends Component {
 
   render() {
     return(
-        <div className="salary-container">
+        <div className="container salary">
             <h2> Salaris Overzicht voor Webdeveloper </h2>
               <hr/>
                 <HorizontalChart />

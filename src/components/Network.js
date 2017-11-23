@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import Flow from '../images/devflow.png';
-import './styles/Network.css'
+import './styles/Container_styles.css'
 
 class Network extends Component {
 
 
   render() {
     return(
-        <div className="network-container">
+        <div className="container network">
             <h2> Netwerk Webdeveloper  </h2>
             <hr/>
             <p> De voornaamste contacten van een Webdeveloper zijn zijn werkgevers.
