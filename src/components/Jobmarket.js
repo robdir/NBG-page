@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './styles/Container_styles.css'
 import './styles/Jobmarket.css'
 import JobVerticalBar from '../graphs/JobVerticalBar';
 
@@ -7,7 +8,7 @@ class Jobmarket extends Component {
 
   render() {
     return(
-        <div className="jobmarket-container">
+        <div className="container jobmarket">
           <h2>Arbeidsmarktperspectief en Doorgroeimogelijkheden Webdeveloper</h2>
             <hr/>
               <p>Er zijn voldoende mogelijkheden om als Webdeveloper een baan te kunnen krijgen,

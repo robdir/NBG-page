@@ -1,0 +1,61 @@
+.container {
+  box-shadow: 7px 6px 5px 1px #542b2b;
+  max-width: 50%;
+  margin: 1em;
+  padding: 15px;
+  background-color: #f5fbfd;
+  border: solid 2px #c9d9e6;
+  border-radius: 15px;
+  height: fit-content;
+}
+
+/* All containers have the container css, and one of the following styles
+that overwrite the attributes or add additional ones for the specific subject*/
+
+.books {
+  height: 15em;
+}
+
+.competences {
+  max-width: 40%;
+}
+
+.description {
+  max-width: 40%;
+}
+
+.education {
+  max-width: 80%;
+  margin: 3em;
+}
+
+.jobmarket {
+  max-width: 80%;
+}
+
+.network {
+  max-width: 60%;
+}
+
+.personality {
+  max-width: 30%;
+}
+
+.network-img img {
+  border: solid 2px #c9d9e6;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.salary {
+  max-width: 40%;
+}
+
+.slider {
+  padding: 4em, 4em, 4em, 4em;
+}
+
+.slider img {
+  height: 120px;
+}

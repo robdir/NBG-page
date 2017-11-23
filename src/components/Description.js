@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import './styles/Description.css'
+import './styles/Container_styles.css'
 
 class Description extends Component {
 
   render() {
     return(
-        <div className="description-container">
+        <div className="container description">
         <h2>Wat doet een webdeveloper? Lees de functieomschrijving: </h2>
         <hr/>
           <p>De Webdeveloper heeft een combinatie van taken waar zowel technisch als creatief inzicht voor nodig is.
