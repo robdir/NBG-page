@@ -10,6 +10,14 @@
   height: fit-content;
 }
 
+.master-container{
+  background-color: WhiteSmoke;
+}
+
+.container h2, h3 {
+  text-align: center;
+}
+
 /* All containers have the container css, and one of the following styles
 that overwrite the attributes or add additional ones for the specific subject*/
 
