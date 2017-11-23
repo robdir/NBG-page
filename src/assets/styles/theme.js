@@ -3,6 +3,7 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme'
 
 // Colors
 export const green        = '#00AA86'
+export const cyan         = '#14BCF0'
 export const orange       = '#FF8F16'
 export const darkRed      = '#C1272D'
 export const white        = '#ffffff'
@@ -14,7 +15,7 @@ export const grey30       = 'rgba(222, 222, 222, 0.7)'
 
 // Palette
 export const palette = {
-  primary1Color: orange,
+  primary1Color: cyan,
   primary2Color: green,
   primary3Color: green,
   accent1Color: green,

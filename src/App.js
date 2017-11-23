@@ -11,6 +11,7 @@ import Books from './components/Books';
 import Description from './components/Description'
 import Network from './components/Network'
 import Personality from './components/Personality'
+import Banner from './components/Banner'
 import './App.css';
 
 
@@ -29,6 +30,7 @@ class App extends Component {
       <MuiThemeProvider muiTheme={muiTheme}>
         <div className="App">
         <Navigation />
+        <Banner />
         <div className="master-container">
         <Description />
         <Salary />
