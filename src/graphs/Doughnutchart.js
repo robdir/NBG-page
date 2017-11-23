@@ -66,6 +66,9 @@ class DoughnutChart extends PureComponent {
             <div className="single-chart"> <Doughnut data={this.state.chartData_chart2} options={this.state.chartOptions_chart2} />
               <p> Goed </p>
             </div>
+            <div className="single-chart">
+            </div>
+            <div className="counter"> <h2> Huidige aantal vacatures* </h2> <p> 3822 </p> </div>
           </div>
         );
       }
