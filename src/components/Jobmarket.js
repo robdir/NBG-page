@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './styles/Container_styles.css'
 import './styles/Jobmarket.css'
-import JobVerticalBar from '../graphs/JobVerticalBar'
-import HorizontalChartJobMarket from '../graphs/HorizontalChartJobMarket'
 import DoughnutChart from '../graphs/Doughnutchart'
 import Books from './Books';
 

@@ -2,7 +2,6 @@
   -webkit-box-shadow: 7px 6px 5px 1px #542b2b;
   box-shadow: 7px 6px 5px 1px #ded2d2;
   max-width: 20em;
-  width: fit-content;
   margin: 1em;
   padding: 15px;
   background-color: #f5fbfd12;
@@ -42,6 +41,8 @@ that overwrite the attributes or add additional ones for the specific subject*/
 
 .education {
   min-height: 15em;
+  max-width: fit-content;
+  padding: 2em;
 }
 
 .large-container {
@@ -55,6 +56,7 @@ that overwrite the attributes or add additional ones for the specific subject*/
 
 .network {
   max-width: 50%;
+  height: 35em;
 }
 
 .personality {
@@ -70,6 +72,7 @@ that overwrite the attributes or add additional ones for the specific subject*/
 
 .salary {
   max-width: 40%;
+  height: 35em;
 }
 
 /*End of container styles  */
