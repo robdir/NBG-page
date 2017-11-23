@@ -1,5 +1,6 @@
 // src/assets/styles/theme.js
 import getMuiTheme from 'material-ui/styles/getMuiTheme'
+import {cyan500} from 'material-ui/styles/colors';
 
 // Colors
 export const green        = '#00AA86'
@@ -14,7 +15,7 @@ export const grey30       = 'rgba(222, 222, 222, 0.7)'
 
 // Palette
 export const palette = {
-  primary1Color: orange,
+  primary1Color: cyan500,
   primary2Color: green,
   primary3Color: green,
   accent1Color: green,
@@ -22,7 +23,7 @@ export const palette = {
   alternateTextColor: white,
   canvasColor: white,
   borderColor: grey,
-  disabledColor: grey30
+  disabledColor: grey30,
 }
 
 export default getMuiTheme({ palette })
