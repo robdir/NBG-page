@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react'
 import AppBar from 'material-ui/AppBar'
 import IconButton from 'material-ui/IconButton'
 import ExpandMore from 'material-ui/svg-icons/navigation/expand-more'
-import FlatButton from 'material-ui/FlatButton'
+import Search from './Search'
 
 
 class Navigation extends PureComponent {
@@ -12,7 +12,7 @@ class Navigation extends PureComponent {
       <AppBar
         title="NationaleBeroepenGids.nl"
         iconElementLeft={<IconButton ><ExpandMore /></IconButton>}
-        iconElementRight={<FlatButton label="Uw NBG" />}
+        iconElementRight={<Search />}
         />
     )
   }

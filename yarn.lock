@@ -4183,6 +4183,12 @@ map-obj@^1.0.0, map-obj@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-1.0.1.tgz#d933ceb9205d82bdcf4886f6742bdc2b4dea146d"
 
+material-ui-search-bar@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/material-ui-search-bar/-/material-ui-search-bar-0.4.1.tgz#821a81d6942dc92ade9d00103f08a961b93b243f"
+  dependencies:
+    prop-types "^15.5.8"
+
 material-ui@^0.17.0:
   version "0.17.4"
   resolved "https://registry.yarnpkg.com/material-ui/-/material-ui-0.17.4.tgz#193999ecb49c3ec15ae0abb4e90fdf9a7bd343e0"
