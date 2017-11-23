@@ -31,7 +31,7 @@ that overwrite the attributes or add additional ones for the specific subject*/
 }
 
 .jobmarket {
-  max-width: 80%;
+  max-width: 60%;
 }
 
 .network {
@@ -51,6 +51,12 @@ that overwrite the attributes or add additional ones for the specific subject*/
 
 .salary {
   max-width: 40%;
+}
+
+/*End of container styles  */
+
+.doughnut-chart1 {
+  position: absolute;
 }
 
 .slider {

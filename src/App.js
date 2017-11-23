@@ -32,12 +32,13 @@ class App extends Component {
         <Navigation />
         <Banner />
         <div className="master-container">
+        <Jobmarket />
         <Description />
         <Salary />
         <Competences />
         <Personality />
         <Network />
-        <Jobmarket />
+
         <Education />
           <Books />
         </div>

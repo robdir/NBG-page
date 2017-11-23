@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './styles/Container_styles.css'
 import './styles/Jobmarket.css'
-import JobVerticalBar from '../graphs/JobVerticalBar';
+import JobVerticalBar from '../graphs/JobVerticalBar'
+import HorizontalChartJobMarket from '../graphs/HorizontalChartJobMarket'
 
 class Jobmarket extends Component {
 
@@ -17,7 +18,7 @@ class Jobmarket extends Component {
               Als Webdeveloper is het vervolgens mogelijk om door te groeien
               naar een positie zoals Senior Webdeveloper of Projectleider. </p>
               <br/>
-              <JobVerticalBar />
+                <HorizontalChartJobMarket /> 
               <br/>
               <h3> Arbeidsmarktperspectief score webdeveloper </h3>
               <p>Hieronder vind je de score voor het arbeidsmarktperspectief voor het beroep webdeveloper.
