@@ -1,7 +1,8 @@
 .container {
   -webkit-box-shadow: 7px 6px 5px 1px #542b2b;
   box-shadow: 7px 6px 5px 1px #ded2d2;
-  max-width: 80%;
+  max-width: 20em;
+  width: fit-content;
   margin: 1em;
   padding: 15px;
   background-color: #f5fbfd12;
@@ -28,34 +29,36 @@
 that overwrite the attributes or add additional ones for the specific subject*/
 
 .books {
-  height: 15em;
-  max-width: 90%;
-  margin: 20px;
+  max-width: 56em;
 }
 
 .competences {
-  max-width: 40%;
+  max-width: 50%;
 }
 
 .description {
-  max-width: 40%;
-  height: 40em;
+  max-width:
 }
 
 .education {
   min-height: 15em;
 }
 
+.large-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .jobmarket {
-  max-width: 50%;
+  max-width: 56em;
 }
 
 .network {
-  max-width: 60%;
+  max-width: 50%;
 }
 
 .personality {
-  max-width: 30%;
+  max-width:
 }
 
 .network-img img {

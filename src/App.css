@@ -20,7 +20,7 @@ font-family: 'Barlow Semi Condensed', sans-serif;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   /*border-bottom: solid 5px #ff8f16;
   border-left: solid 5px #ff8f16;
   border-right: solid 5px #ff8f16;*/

@@ -34,7 +34,6 @@ class App extends Component {
         <div className="master-container">
         <Description />
         <Jobmarket />
-        <Books />
         <Salary />
         <Competences />
         <Education />
