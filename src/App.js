@@ -10,6 +10,8 @@ import Education from './components/Education'
 import Description from './components/Description'
 import Network from './components/Network'
 import Personality from './components/Personality'
+import Organisation from './components/Organisation'
+import Beroepskeuze from './components/Beroepskeuze'
 import Banner from './components/Banner'
 import './App.css';
 
@@ -39,6 +41,8 @@ class App extends Component {
         <Competences />
 
         <Personality />
+        <Organisation />
+        <Beroepskeuze />
 
         </div>
         </div>

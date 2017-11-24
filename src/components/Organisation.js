@@ -1,11 +1,20 @@
 import React, { Component } from 'react';
-import './styles/Container_styles.css'
+import './styles/Container_styles.css';
+import BusinessIcon from 'material-ui-icons/Business';
+
+const iconStyles = {
+                    marginRight: 24,
+                    width:60,
+                    height:60,
+                };
 
 class Organisation extends Component {
 
+
   render() {
     return(
-        <div className="container description">
+        <div className="container">
+        <BusinessIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/>
         <h2>Organisaties waar een webdeveloper doorgaans werkzaam is </h2>
         <hr/>
           <div>
@@ -15,6 +24,7 @@ class Organisation extends Component {
            bedrijf, een particulier of publiek bedrijf, en op freelance
           of vaste basis. Vaak komt men dan op de communicatie- of marketingafdeling
            van de organisatie terecht. </p>
+
               </div>
             </div>
       )
