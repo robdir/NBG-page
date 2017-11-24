@@ -7,7 +7,7 @@ const api = new ApiClient()
 export default () => {
   return dispatch => {
 
-    api.get('/')
+    api.get('/books')
       .then(res => {
         dispatch({ type: UPDATE_BOOKS, payload: res.body })
       })
