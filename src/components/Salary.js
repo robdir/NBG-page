@@ -8,7 +8,7 @@ class Salary extends Component {
   render() {
     return(
         <div className="container salary">
-            <h2> Salaris Overzicht voor Webdeveloper </h2>
+            <h2> € Salaris Overzicht voor Webdeveloper </h2>
               <hr/>
                 <HorizontalChart />
                 <p>Het salaris van een Webdeveloper kan uiteenlopen van

@@ -1,16 +1,17 @@
 .container {
   -webkit-box-shadow: 7px 6px 5px 1px #542b2b;
   box-shadow: 7px 6px 5px 1px #ded2d2;
-  max-width: 50%;
+  max-width: 20em;
   margin: 1em;
   padding: 15px;
   background-color: #f5fbfd12;
   border: solid 2px #e8eaea;
   border-radius: 1px;
   height: fit-content;
+  overflow: hidden;
 }
 
-.master-container{
+.master-container {
   background-color: WhiteSmoke;
 }
 
@@ -27,32 +28,40 @@
 that overwrite the attributes or add additional ones for the specific subject*/
 
 .books {
-  height: 15em;
+  max-width: 56em;
+  padding: 2em;
 }
 
 .competences {
-  max-width: 40%;
+  max-width: 45%;
 }
 
 .description {
-  max-width: 40%;
+  max-width:
 }
 
 .education {
-  max-width: 80%;
-  margin: 3em;
+  min-height: 15em;
+  max-width: fit-content;
+  padding: 2em;
+}
+
+.large-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .jobmarket {
-  max-width: 50%;
+  max-width: 56em;
 }
 
 .network {
-  max-width: 60%;
+  max-width: 50%;
+  height: 35em;
 }
 
 .personality {
-  max-width: 30%;
+  max-width: 45%;
 }
 
 .network-img img {
@@ -64,6 +73,7 @@ that overwrite the attributes or add additional ones for the specific subject*/
 
 .salary {
   max-width: 40%;
+  height: 35em;
 }
 
 /*End of container styles  */
@@ -72,7 +82,13 @@ that overwrite the attributes or add additional ones for the specific subject*/
   width: 100%;
   height: 20em;
   position: relative;
-  border: 2px solid red;
+}
+
+.counter p {
+  font-size: 30px;
+  text-align: center;
+  background-color: #7DD5F0;
+  border-radius: 100px;
 }
 
 .slider {
