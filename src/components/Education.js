@@ -19,7 +19,7 @@ class Education extends Component {
 
   render() {
     return(
-        <div className="container education">
+        <div className="container education" id="Opleiding">
         <h2> Webdeveloper worden: Opleiding tot webdeveloper </h2>
         <hr/>
 
