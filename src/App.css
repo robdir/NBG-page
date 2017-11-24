@@ -20,6 +20,7 @@ font-family: 'Barlow Semi Condensed', sans-serif;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
   /*border-bottom: solid 5px #ff8f16;
   border-left: solid 5px #ff8f16;
   border-right: solid 5px #ff8f16;*/
@@ -27,8 +28,10 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 
 .master-container p, h3, h2 {
   font-family: 'Barlow Semi Condensed', sans-serif;
+  color: #6B6B6B;
+  line-height: 1.5em;
 }
 
 .slick-prev:before, .slick-next:before {
-  color: #a71e1e;
+  color: #14bcf0;
 }

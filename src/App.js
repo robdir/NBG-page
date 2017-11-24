@@ -7,7 +7,6 @@ import Salary from './components/Salary';
 import Competences from './components/Competences';
 import Jobmarket from './components/Jobmarket'
 import Education from './components/Education'
-import Books from './components/Books';
 import Description from './components/Description'
 import Network from './components/Network'
 import Personality from './components/Personality'
@@ -32,15 +31,15 @@ class App extends Component {
         <Navigation />
         <Banner />
         <div className="master-container">
-        <Jobmarket />
         <Description />
-        <Salary />
-        <Competences />
-        <Personality />
-        <Network />
-
+        <Jobmarket />
         <Education />
-        <Books />
+        <Salary />
+        <Network />
+        <Competences />
+
+        <Personality />
+
         </div>
         </div>
       </MuiThemeProvider>
