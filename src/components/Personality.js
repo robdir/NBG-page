@@ -19,7 +19,7 @@ class Personality extends Component {
         <hr/>
         <div className="bubble-items ">
           <div className="bubble"><p> Levensgenieter </p>
-          <span className="bubble-text">
+          <span className="bubble-pop-up-text">
             De levensgenieter is erg optimistisch, en kan dit optimisme goed op anderen
             overbrengen door overtuigend, en vooral ook veel, te praten. Hij zit vol nieuwe
             ideeën en potentiële toekomstvisies. Ook is hij actief en innovatief. Hij kan
@@ -28,7 +28,7 @@ class Personality extends Component {
             </span>
           </div>
           <div className="bubble"><p>Waarnemer </p>
-            <span className="bubble-text">
+            <span className="bubble-pop-up-text">
             De waarnemer is vaak specialist op een bepaald vakgebied en bezit daarmee veel
             en diepgaande kennis over zaken. Ook heeft hij een sterke motivatie om te werken
             en is hij analytisch, eerlijk en intellectueel. De waarnemer kan goed hoofd- en
