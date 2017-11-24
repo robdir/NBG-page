@@ -30,8 +30,8 @@ class Sidebar extends PureComponent {
           onClick={this.Open}
         />
         <MuiThemeProvider muiTheme={muiTheme}>
-        <Drawer open={this.state.open} docked='false'>
-          <MenuItem>Ga direct naar</MenuItem>
+        <Drawer open={this.state.open}>
+          <MenuItem>Ga direct naar:</MenuItem>
           <hr/>
           <MenuItem onClick={this.Close}><a href='#Omschrijving'>Functieomschrijving</a></MenuItem>
           <MenuItem onClick={this.Close}><a href='#Vacatures'>Vacatures</a></MenuItem>
@@ -40,7 +40,7 @@ class Sidebar extends PureComponent {
           <MenuItem onClick={this.Close}><a href='#Netwerk'>Netwerk</a></MenuItem>
           <MenuItem onClick={this.Close}><a href='#Persoontypen'>Persoontypen</a></MenuItem>
           <hr/>
-          <MenuItem onClick={this.Close}> Close menu </MenuItem>
+          <MenuItem onClick={this.Close}> Menu sluiten </MenuItem>
         </Drawer>
         </MuiThemeProvider>
       </div>
