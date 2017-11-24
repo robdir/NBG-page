@@ -8,12 +8,15 @@ class Organisation extends Component {
         <div className="container description">
         <h2>Organisaties waar een webdeveloper doorgaans werkzaam is </h2>
         <hr/>
-          <div><p> Een Webdeveloper kan bij vele soorten bedrijven aan de slag
+          <div>
+          <p> Een Webdeveloper kan bij vele soorten bedrijven aan de slag
            zolang die maar een website hebben die ontwikkeld moet worden en
            onderhoud nodig heeft. Dit kan zowel bij een groot als een klein
            bedrijf, een particulier of publiek bedrijf, en op freelance
           of vaste basis. Vaak komt men dan op de communicatie- of marketingafdeling
-           van de organisatie terecht. </p></div>
+           van de organisatie terecht. </p>
+              </div>
+            </div>
       )
     }
 }
