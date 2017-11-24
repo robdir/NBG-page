@@ -3,7 +3,12 @@ import './styles/Container_styles.css'
 import './styles/Jobmarket.css'
 import DoughnutChart from '../graphs/Doughnutchart'
 import Books from './Books';
+import $ from 'jquery';
 
+$.get('https://trends.springest.com/automatisering-ict', function(response) {
+    var count = $(response).find('#page-wrapper > div.row.avg-row.fade-in > div:nth-child(1) > div > div > div > div.col-xs-8.text-right > div')
+    console.log(count.text())
+})
 
 class Jobmarket extends Component {
 
