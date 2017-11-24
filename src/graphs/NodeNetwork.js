@@ -7,7 +7,7 @@ class NodeNetwork extends PureComponent {
     this.state = {
       graph: {
         nodes: [
-          { id: 1, label: "Werkgever", title: <p> Hopa </p>, color: "#4286f4" },
+          { id: 1, label: "Werkgever", title: 'Imma title', color: "#4286f4" },
           { id: 2, label: "Web Developer", color: "#14bcf0" },
           { id: 3, label: "ICT'ER", color: "#4286f4" },
           { id: 4, label: "Gebruiker", color: "#4286f4" },
@@ -26,13 +26,14 @@ class NodeNetwork extends PureComponent {
           color: "#000000",
         },
         physics: {
-          // enabled: false
+          enabled: true
         },
         nodes: {
           shape: 'circle',
         },
         interaction: {
-          zoomView: false
+          zoomView: false,
+          hover: true,
         }
       },
 
