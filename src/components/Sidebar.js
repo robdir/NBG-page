@@ -37,8 +37,8 @@ class Sidebar extends PureComponent {
           <MenuItem onClick={this.Close}><a href='#Vacatures'>Vacatures</a></MenuItem>
           <MenuItem onClick={this.Close}><a href='#Opleiding'>Opleiding</a></MenuItem>
           <MenuItem onClick={this.Close}><a href='#Salaris'>Salaris</a></MenuItem>
-          <MenuItem onClick={this.Close}><a href='Netwerk'>Netwerk</a></MenuItem>
-          <MenuItem onClick={this.Close}><a href='Persoontypen'>Persoontypen</a></MenuItem>
+          <MenuItem onClick={this.Close}><a href='#Netwerk'>Netwerk</a></MenuItem>
+          <MenuItem onClick={this.Close}><a href='#Persoontypen'>Persoontypen</a></MenuItem>
           <hr/>
           <MenuItem onClick={this.Close}> Close menu </MenuItem>
         </Drawer>

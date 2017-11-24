@@ -7,7 +7,7 @@ class Personality extends Component {
 
   render() {
     return(
-        <div className="container personality">
+        <div className="container personality" id='Persoontypen'>
         <h2> Persoonstypen webdeveloper </h2>
         <hr/>
         <p>De Webdeveloper zit vaak overal tussen en moet zich snel aan kunnen passen.

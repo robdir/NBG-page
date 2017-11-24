@@ -7,7 +7,7 @@ class Network extends Component {
 
   render() {
     return(
-        <div className="container network">
+        <div className="container network" id='Netwerk'>
             <h2> Netwerk Webdeveloper  </h2>
             <hr/>
             <p> De voornaamste contacten van een Webdeveloper zijn zijn werkgevers.
