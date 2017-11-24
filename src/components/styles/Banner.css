@@ -1,5 +1,6 @@
 .banner-image {
   background-image: url(http://www.talentelgia.com/wp-content/uploads/2015/05/web-development.png);
+  background-position: center;
   height: 500px;
   background-size: cover;
   margin-left: auto;

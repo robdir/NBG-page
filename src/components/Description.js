@@ -5,7 +5,7 @@ class Description extends Component {
 
   render() {
     return(
-        <div className="container description">
+        <div className="container description" id="Omschrijving">
         <h2>Functieomschrijving: wat doet een Webdeveloper? </h2>
         <hr/>
           <p>De Webdeveloper heeft een combinatie van taken waar zowel technisch als creatief inzicht voor nodig is.
