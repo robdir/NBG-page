@@ -52,9 +52,25 @@ class DoughnutChart extends PureComponent {
                 circumference: 4,
               },
 
+              amount_of_vacancies: 13822,
             } //this.state
-
       }
+
+      componentWillMount() {
+		setInterval(() => {
+      this.random_int()
+		}, 900);
+  }
+
+    random_int() {
+      this.setState({
+         amount_of_vacancies: this.change_amount(this.state.amount_of_vacancies, this.state.amount_of_vacancies-5)
+      });
+    }
+
+    change_amount(max, min){
+        return Math.floor(Math.random() * (min - max + 1)) + min;
+    }
 
       render() {
         return (
@@ -68,7 +84,7 @@ class DoughnutChart extends PureComponent {
             </div>
             <div className="single-chart">
             </div>
-            <div className="counter"> <h2> Huidige aantal vacatures* </h2> <p> 3822 </p> </div>
+            <div className="counter"> <h2> Huidige aantal vacatures* </h2> <p> {this.state.amount_of_vacancies} </p> </div>
           </div>
         );
       }

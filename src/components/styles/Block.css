@@ -1,0 +1,17 @@
+.block-items {
+  display: flex;
+  box-shadow: none;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex: column;
+}
+
+.block {
+  background-color: #14bcf0;
+  color: #ffffff;
+  border-radius: 5px;
+  min-width: 6em;
+  padding: 1em;
+  margin: 1em;
+  text-align: center;
+}
