@@ -10,7 +10,9 @@ class Salary extends Component {
         <div className="container salary" id="Salaris">
             <h2> € Salaris Overzicht voor Webdeveloper </h2>
               <hr/>
+              <div>
                 <HorizontalChart />
+                </div>
                 <p>Het salaris van een Webdeveloper kan uiteenlopen van
                  €2300 tot €4200 per maand (bruto). Hoe de arbeidsvoorwaarden
                  precies geregeld zijn, is afhankelijk van de werkervaring,
