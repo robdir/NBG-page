@@ -12,6 +12,7 @@ import Network from './components/Network'
 import Personality from './components/Personality'
 import Organisation from './components/Organisation'
 import Beroepskeuze from './components/Beroepskeuze'
+import Footer from './components/Footer'
 import Banner from './components/Banner'
 import './App.css';
 
@@ -39,13 +40,12 @@ class App extends Component {
         <Salary />
         <Network />
         <Competences />
-
         <Personality />
         <Organisation />
         <Beroepskeuze />
-
         </div>
         </div>
+        <Footer/>
       </MuiThemeProvider>
     )
   }
