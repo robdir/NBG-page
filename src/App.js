@@ -13,6 +13,7 @@ import Personality from './components/Personality'
 import Organisation from './components/Organisation'
 import Beroepskeuze from './components/Beroepskeuze'
 import Banner from './components/Banner'
+import Books from './components/Books';
 import './App.css';
 
 
@@ -39,6 +40,7 @@ class App extends Component {
         <Salary />
         <Network />
         <Competences />
+        <Books />
 
         <Personality />
         <Organisation />

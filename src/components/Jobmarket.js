@@ -2,18 +2,36 @@ import React, { Component } from 'react';
 import './styles/Container_styles.css'
 import './styles/Jobmarket.css'
 import DoughnutChart from '../graphs/Doughnutchart'
-import Books from './Books';
+import PropTypes from 'prop-types'
 import $ from 'jquery';
-
-$.get('https://trends.springest.com/automatisering-ict', function(response) {
-    var count = $(response).find('#page-wrapper > div.row.avg-row.fade-in > div:nth-child(1) > div > div > div > div.col-xs-8.text-right > div')
-    console.log(count.text())
-})
+import './styles/Block.css'
 
 class Jobmarket extends Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+        education_count: PropTypes.number,
+      };
+    }
 
 
   render() {
+
+    //this is to bypass CORS.. yeah. http://multiverso.me/AllOrigins/ ///
+    var url = 'https://allorigins.us/get?method=raw&url=' + encodeURIComponent("https://trends.springest.com/automatisering-ict") + "&callback=?";
+
+      var get_data =
+        $.get(url, function(data) {
+          var count = $(data).find('#page-wrapper > div.row.avg-row.fade-in > div:nth-child(1) > div > div > div > div.col-xs-8.text-right > div')
+          //*div[@class="page-wrapper"]/div[2]/div[3]/div/div/div/div[2]/div
+            console.log("count", count.text())
+            var education_count = count.text();
+            return education_count
+          })
+
+        console.log(get_data)
+
+
     return(
       <div className= "large-container">
         <div className="container jobmarket">
@@ -37,8 +55,10 @@ class Jobmarket extends Component {
               </div>
 
 
+              <div className="Block">  </div>
 
-                <Books />
+
+
 
           </div>
       )
