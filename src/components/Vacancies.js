@@ -6,7 +6,13 @@ import NJS from '../images/icons/nodejs.png'
 import SQL from '../images/icons/sql.png'
 import JS from '../images/icons/react.png'
 import Native from '../images/icons/react-native.png'
+import VacIcon from 'material-ui-icons/BusinessCenter';
 
+const iconStyles = {
+                    marginRight: 24,
+                    width:60,
+                    height:50,
+                };
 
 class Vacancies extends Component {
   constructor(props){
@@ -25,7 +31,7 @@ class Vacancies extends Component {
   render() {
     return(
         <div className="container vacancies" id="Vacatures">
-        <h2> Vacatures Webdeveloper </h2>
+        <h2> <VacIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/> Vacatures Webdeveloper </h2>
         <hr/>
         <div> <p> Op zoek naar een nieuwe baan als Webdeveloper? Samen met onze vacature partners
           bieden wij je een groot aanbod aan actuele vacatures voor Webdeveloper. Wanneer je hieronder

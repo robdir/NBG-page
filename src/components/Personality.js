@@ -1,14 +1,20 @@
 import React, { Component } from 'react';
 import './styles/Container_styles.css'
 import './styles/Bubble.css'
+import CheckIcon from 'material-ui-icons/Check';
 
+const iconStyles = {
+                    marginRight: 24,
+                    width:60,
+                    height:50,
+                };
 class Personality extends Component {
 
 
   render() {
     return(
         <div className="container personality" id='Persoontypen'>
-        <h2> Persoonstypen webdeveloper </h2>
+        <h2> <CheckIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/> Persoonstypen webdeveloper </h2>
         <hr/>
         <p>De Webdeveloper zit vaak overal tussen en moet zich snel aan kunnen passen.
         Ook moet de Webdeveloper het leuk vinden om steeds een nieuwe uitdaging aan te

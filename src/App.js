@@ -5,6 +5,7 @@ import muiTheme from './assets/styles/theme';
 import Navigation from './components/Navigation';
 import Salary from './components/Salary';
 import Competences from './components/Competences';
+import Education from './components/Education'
 import Jobmarket from './components/Jobmarket'
 import Description from './components/Description'
 import Network from './components/Network'
@@ -37,6 +38,7 @@ class App extends Component {
         <div className="master-container">
         <Description />
         <Jobmarket />
+        <Education />
         <Vacancies />
         <Salary />
         <Network />
