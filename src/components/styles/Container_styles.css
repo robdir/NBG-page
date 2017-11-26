@@ -28,20 +28,21 @@
 /* All containers have the container css, and one of the following styles
 that overwrite the attributes or add additional ones for the specific subject*/
 
+.beroepskeuze {}
+
+.beroepskeuze h2 {
+  color: black;
+  font-style: italic;
+}
+
 .books {
   max-width: 50%;
   padding: 2em;
 }
 
-.competences {
-  max-width: 45%;
-  height: 20em;
-}
+.competences {}
 
-
-.description {
-}
-
+.description {}
 
 .education {
   min-height: 15em;
@@ -54,6 +55,8 @@ that overwrite the attributes or add additional ones for the specific subject*/
   flex-direction: column;
 }
 
+.interview {}
+
 .jobmarket {
   flex-grow: 2;
 }
@@ -65,7 +68,6 @@ that overwrite the attributes or add additional ones for the specific subject*/
 .personality {
   max-width: 40em;
 }
-
 
 .network-img img {
   border: solid 2px #c9d9e6;
@@ -83,6 +85,7 @@ that overwrite the attributes or add additional ones for the specific subject*/
   min-height: 20em;
   padding: 2em;
 }
+
 /*End of container styles  */
 
 .chart-jobmarket {
@@ -95,6 +98,10 @@ that overwrite the attributes or add additional ones for the specific subject*/
   text-align: center;
   background-color: #7DD5F0;
   border-radius: 100px;
+}
+
+.mini-footer {
+  font-size: 10px;
 }
 
 .slider {

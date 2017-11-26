@@ -16,7 +16,7 @@ class Description extends Component {
         <h2> <CreateIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/>Functieomschrijving: wat doet een Webdeveloper? </h2>
         <hr/>
           <p>De Webdeveloper heeft een combinatie van taken waar zowel technisch als creatief inzicht voor nodig is.
-          Een Webdeveloper moet kunnen programmeren, redigeren en presenteren. De verdeling van deze taken is in elke functie anders,
+          Een Webdeveloper moet kunnen <b>programmeren, redigeren en presenteren.</b> De verdeling van deze taken is in elke functie anders,
           maar steeds geldt dat de Webdeveloper multidisciplinair te werk zal gaan. Dat betekent natuurlijk niet dat men overal maar oppervlakkige kennis van hoeft te hebben;
           een Webdeveloper heeft meestal een diepere kennis van programmeren dan bijvoorbeeld een webmaster.</p>
           <p>De Webdeveloper is vaak vanaf het begin van de creatie van een website aanwezig,

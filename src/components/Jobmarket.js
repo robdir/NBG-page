@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './styles/Container_styles.css'
-import './styles/Jobmarket.css'
 import DoughnutChart from '../graphs/Doughnutchart'
 import $ from 'jquery';
 import './styles/Block.css'
@@ -16,16 +15,12 @@ class Jobmarket extends Component {
 
 
   render() {
-
-
-
     //this is to bypass CORS.. yeah. http://multiverso.me/AllOrigins/ ///
     var url = 'https://allorigins.us/get?method=raw&url=' + encodeURIComponent("https://trends.springest.com/automatisering-ict") + "&callback=?";
 
       var get_data =
         $.get(url, function(data) {
           var count = $(data).find('#page-wrapper > div.row.avg-row.fade-in > div:nth-child(1) > div > div > div > div.col-xs-8.text-right > div')
-          //*div[@class="page-wrapper"]/div[2]/div[3]/div/div/div/div[2]/div
             console.log("count", count.text())
             var education_count = count.text();
             return education_count
@@ -53,6 +48,10 @@ class Jobmarket extends Component {
               <p>
               This score is calculated through data recieved from Intelligence Group & <a href=""> arbeitsmarktkansen.nl</a>
               The graph above indicates one of the factors contributing to the 'Zeer Goed' score of a career as a Web developer.</p>
+
+              <p className= "mini-footer"> *Mogelijk gemaakt door <a href=""> Intelligence Group </a> </p
+
+
 
               </div>
       )

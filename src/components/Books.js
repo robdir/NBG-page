@@ -28,13 +28,18 @@ class Books extends Component {
 
   }}//constructor and this.state
 
-
+// comment 
   componentWillMount(){
     this.props.UpdateBooks()
 }
   static propTypes = {
     books: PropTypes.arrayOf(PropTypes.string)
   }
+  /*static propTypes = {
+    books: PropTypes.arrayOf(PropTypes.shape({
+     title_and_price: PropTypes.string,
+     images: PropTypes.array
+   })).isRequired,*/
 
   render() {
     return(
