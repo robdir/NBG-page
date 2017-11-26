@@ -24,18 +24,6 @@
   text-align: center;
 }
 
-.footer {
-  width: 550em;
-  display: inline-block;
-  height: 120px;
-  background-color: #14bcf0;
-  position: absolute;
-}
-
-.footer p {
-  color: White;
-  display: inline-block;
-}
 
 /* All containers have the container css, and one of the following styles
 that overwrite the attributes or add additional ones for the specific subject*/
@@ -48,7 +36,7 @@ that overwrite the attributes or add additional ones for the specific subject*/
 }
 
 .books {
-  max-width: 54em;
+  max-width: 50%;
   padding: 2em;
 }
 
@@ -58,7 +46,7 @@ that overwrite the attributes or add additional ones for the specific subject*/
 
 .education {
   min-height: 15em;
-  max-width: 54em;
+  max-width: 90%;
   padding: 2em;
 }
 
@@ -89,11 +77,11 @@ that overwrite the attributes or add additional ones for the specific subject*/
 }
 
 .salary {
-  height: 35em;
+  height: 22em;
 }
 
 .vacancies {
-  max-width: 85em;
+  max-width: 90%;
   min-height: 20em;
   padding: 2em;
 }

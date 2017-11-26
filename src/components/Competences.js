@@ -1,13 +1,20 @@
 import React, { Component } from 'react';
 import './styles/Bubble.css'
 import './styles/Container_styles.css'
+import CheckIcon from 'material-ui-icons/Check';
+
+const iconStyles = {
+                    marginRight: 24,
+                    width:60,
+                    height:50,
+                };
 
 class Competences extends Component {
 
   render() {
     return(
         <div className="container competences">
-        <h2>Competenties van een Webdeveloper </h2>
+        <h2><CheckIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/>Competenties van een Webdeveloper </h2>
         <hr />
         <div className="bubble-items ">
           <div className="bubble"><p> Klantgerichtheid </p>

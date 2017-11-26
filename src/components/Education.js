@@ -8,6 +8,13 @@ import RoR from '../images/icons/ruby.png'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { GetCourses } from '../actions/springest_courses'
+import EduIcon from 'material-ui-icons/School';
+
+const iconStyles = {
+                    marginRight: 24,
+                    width:60,
+                    height:50,
+                };
 
 class Education extends Component {
   constructor(props){
@@ -33,7 +40,7 @@ class Education extends Component {
   render() {
     return(
         <div className="container education" id="Opleiding">
-        <h2> Webdeveloper worden: Opleiding tot webdeveloper </h2>
+        <h2> <EduIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/>  Webdeveloper worden: Opleiding tot webdeveloper </h2>
         <hr/>
 
         <div className="springest-courses">
