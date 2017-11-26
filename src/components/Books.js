@@ -5,6 +5,13 @@ import { connect } from 'react-redux'
 import { UpdateBooks } from '../actions/books'
 import Slider from 'react-slick'
 import bookcover from '../images/book_cover.jpg'
+import StarIcon from 'material-ui-icons/Star';
+
+const iconStyles = {
+                    marginRight: 24,
+                    width:60,
+                    height:50,
+                };
 
 class Books extends Component {
 
@@ -32,7 +39,7 @@ class Books extends Component {
   render() {
     return(
       <div className="container books">
-        <h2>Recommended Books </h2>
+        <h2> <StarIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/> Recommended Books </h2>
         <hr/>
       <div className="slider">
         <Slider {...this.state.settings}>

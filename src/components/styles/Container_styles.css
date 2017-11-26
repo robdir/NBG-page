@@ -41,7 +41,7 @@
 that overwrite the attributes or add additional ones for the specific subject*/
 
 .books {
-  max-width: 54em;
+  max-width: 50%;
   padding: 2em;
 }
 
@@ -57,7 +57,7 @@ that overwrite the attributes or add additional ones for the specific subject*/
 
 .education {
   min-height: 15em;
-  max-width: 54em;
+  max-width: 90%;
   padding: 2em;
 }
 
@@ -91,7 +91,7 @@ that overwrite the attributes or add additional ones for the specific subject*/
 }
 
 .vacancies {
-  max-width: 85em;
+  max-width: 90%;
   min-height: 20em;
   padding: 2em;
 }

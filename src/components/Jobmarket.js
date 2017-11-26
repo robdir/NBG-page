@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
-import Education from './Education'
 import './styles/Container_styles.css'
 import './styles/Jobmarket.css'
 import DoughnutChart from '../graphs/Doughnutchart'
-import PropTypes from 'prop-types'
 import $ from 'jquery';
 import './styles/Block.css'
+import MarketIcon from 'material-ui-icons/Poll';
+
+const iconStyles = {
+                    marginRight: 24,
+                    width:60,
+                    height:50,
+                };
 
 class Jobmarket extends Component {
 
@@ -31,7 +36,7 @@ class Jobmarket extends Component {
 
     return(
         <div className="container jobmarket">
-          <h2>Arbeidsmarktperspectief en Doorgroeimogelijkheden Webdeveloper</h2>
+          <h2> <MarketIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/>Arbeidsmarktperspectief en Doorgroeimogelijkheden Webdeveloper</h2>
             <hr/>
               <div> <p>Er zijn voldoende mogelijkheden om als Webdeveloper een baan te kunnen krijgen,
                zolang men maar competent genoeg is. Het helpt soms ook om een specialisme te ontwikkelen,

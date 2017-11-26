@@ -1,12 +1,19 @@
 import React, { Component } from 'react';
 import './styles/Container_styles.css'
+import CreateIcon from 'material-ui-icons/Create';
+
+const iconStyles = {
+                    marginRight: 24,
+                    width:60,
+                    height:50,
+                };
 
 class Description extends Component {
 
   render() {
     return(
         <div className="container description" id="Omschrijving">
-        <h2>Functieomschrijving: wat doet een Webdeveloper? </h2>
+        <h2> <CreateIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/>Functieomschrijving: wat doet een Webdeveloper? </h2>
         <hr/>
           <p>De Webdeveloper heeft een combinatie van taken waar zowel technisch als creatief inzicht voor nodig is.
           Een Webdeveloper moet kunnen programmeren, redigeren en presenteren. De verdeling van deze taken is in elke functie anders,
