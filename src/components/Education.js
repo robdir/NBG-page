@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './styles/Container_styles.css'
 import Slider from 'react-slick'
-import education_icon from '../images/education_icon.svg'
 import Coda from '../images/icons/coda.png'
 import PHP from '../images/icons/php-outline.png'
 import JS from '../images/icons/react.png'
@@ -15,8 +14,8 @@ class Education extends Component {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 5,
-        slidesToScroll: 5
+        slidesToShow: 3,
+        slidesToScroll: 3
       }
 
   }}//constructor and this.state

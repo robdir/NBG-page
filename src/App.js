@@ -14,6 +14,7 @@ import Beroepskeuze from './components/Beroepskeuze'
 import Footer from './components/Footer'
 import Banner from './components/Banner'
 import Books from './components/Books';
+import Vacancies from './components/Vacancies'
 import './App.css';
 
 
@@ -36,6 +37,7 @@ class App extends Component {
         <div className="master-container">
         <Description />
         <Jobmarket />
+        <Vacancies />
         <Salary />
         <Network />
         <Competences />
