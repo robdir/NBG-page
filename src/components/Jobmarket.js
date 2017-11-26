@@ -28,7 +28,7 @@ class Jobmarket extends Component {
                 <DoughnutChart />
               <br/>
               <div> <h3> Arbeidsmarktperspectief score webdeveloper </h3>
-              <p>Hieronder vind je de score voor het arbeidsmarktperspectief voor het beroep webdeveloper.
+              <p>Hierboven vind je de score voor het arbeidsmarktperspectief voor het beroep webdeveloper.
               We hebben 5 scores: Zeer Goed, Goed, Redelijk, Matig en Slecht.
               </p> </div>
               <p>
