@@ -27,9 +27,14 @@
 .footer {
   width: 550em;
   display: inline-block;
-  height: 100px;
+  height: 50px;
   background-color: #14bcf0;
   position: absolute;
+}
+
+.footer p {
+  color: White;
+  display: inline-block;
 }
 
 /* All containers have the container css, and one of the following styles
