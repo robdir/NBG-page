@@ -64,12 +64,14 @@ class DoughnutChart extends PureComponent {
 
     random_int() {
       this.setState({
-         amount_of_vacancies: this.change_amount(this.state.amount_of_vacancies, this.state.amount_of_vacancies-5)
+         amount_of_vacancies: this.change_amount(this.state.amount_of_vacancies)
       });
     }
 
-    change_amount(max, min){
-        return Math.floor(Math.random() * (min - max + 1)) + min;
+    change_amount(current_amount){
+      var numbers = [1,2,3,4,5,-5,-4,-3,-2,-1]
+      var random = numbers[Math.floor(Math.random() * numbers.length)];
+      return current_amount + random;
     }
 
       render() {

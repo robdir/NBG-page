@@ -5,6 +5,9 @@ import Coda from '../images/icons/coda.png'
 import PHP from '../images/icons/php-outline.png'
 import JS from '../images/icons/react.png'
 import RoR from '../images/icons/ruby.png'
+import PropTypes from 'prop-types'
+import { connect } from 'react-redux'
+import { GetCourses } from '../actions/springest_courses'
 
 class Education extends Component {
   constructor(props){
@@ -20,6 +23,13 @@ class Education extends Component {
 
   }}//constructor and this.state
 
+  componentWillMount(){
+    this.props.GetCourses()
+}
+  static propTypes = {
+    courses: PropTypes.String
+  }
+
   render() {
     return(
         <div className="container education" id="Opleiding">
@@ -27,6 +37,7 @@ class Education extends Component {
         <hr/>
 
         <div className="springest-courses">
+        {this.props.courses}
         </div>
 
 
@@ -51,4 +62,14 @@ class Education extends Component {
     }
 }
 
-export default Education
+
+const mapStateToProps = function(state){
+  return{
+    courses: state.courses
+  }
+}
+
+const mapDispatchToProps = {GetCourses}
+
+
+export default connect(mapStateToProps, mapDispatchToProps)(Education)

@@ -8,15 +8,11 @@ import $ from 'jquery';
 import './styles/Block.css'
 
 class Jobmarket extends Component {
-    constructor(props) {
-      super(props);
-      this.state = {
-        education_count: PropTypes.number,
-      };
-    }
 
 
   render() {
+
+
 
     //this is to bypass CORS.. yeah. http://multiverso.me/AllOrigins/ ///
     var url = 'https://allorigins.us/get?method=raw&url=' + encodeURIComponent("https://trends.springest.com/automatisering-ict") + "&callback=?";
@@ -34,7 +30,6 @@ class Jobmarket extends Component {
 
 
     return(
-      <div className= "large-container">
         <div className="container jobmarket">
           <h2>Arbeidsmarktperspectief en Doorgroeimogelijkheden Webdeveloper</h2>
             <hr/>
@@ -56,12 +51,13 @@ class Jobmarket extends Component {
               </div>
 
 
+
               <div className="Block"> <Education/>  </div>
+      
 
 
 
 
-          </div>
       )
     }
 }
