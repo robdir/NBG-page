@@ -24,18 +24,6 @@
   text-align: center;
 }
 
-.footer {
-  width: 550em;
-  display: inline-block;
-  height: 120px;
-  background-color: #14bcf0;
-  position: absolute;
-}
-
-.footer p {
-  color: White;
-  display: inline-block;
-}
 
 /* All containers have the container css, and one of the following styles
 that overwrite the attributes or add additional ones for the specific subject*/
