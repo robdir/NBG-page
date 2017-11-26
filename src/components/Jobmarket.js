@@ -48,16 +48,8 @@ class Jobmarket extends Component {
               <p>
               This score is calculated through data recieved from Intelligence Group & <a href=""> arbeitsmarktkansen.nl</a>
               The graph above indicates one of the factors contributing to the 'Zeer Goed' score of a career as a Web developer.</p>
+
               </div>
-
-
-
-              <div className="Block"> <Education/>  </div>
-      
-
-
-
-
       )
     }
 }

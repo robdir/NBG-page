@@ -5,7 +5,7 @@ import BusinessIcon from 'material-ui-icons/Business';
 const iconStyles = {
                     marginRight: 24,
                     width:60,
-                    height:60,
+                    height:50,
                 };
 
 class Organisation extends Component {
@@ -14,8 +14,8 @@ class Organisation extends Component {
   render() {
     return(
         <div className="container">
-        <BusinessIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/>
-        <h2>Organisaties waar een webdeveloper doorgaans werkzaam is </h2>
+        <h2>        <BusinessIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/>
+Organisaties waar een webdeveloper doorgaans werkzaam is </h2>
         <hr/>
           <div>
           <p> Een Webdeveloper kan bij vele soorten bedrijven aan de slag
