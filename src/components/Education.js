@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import './styles/Container_styles.css'
 import Slider from 'react-slick'
-import education_icon from '../images/education_icon.svg'
+import Coda from '../images/icons/coda.png'
+import PHP from '../images/icons/php-outline.png'
+import JS from '../images/icons/react.png'
+import RoR from '../images/icons/ruby.png'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { GetCourses } from '../actions/springest_courses'
@@ -14,8 +17,8 @@ class Education extends Component {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 5,
-        slidesToScroll: 5
+        slidesToShow: 3,
+        slidesToScroll: 3
       }
 
   }}//constructor and this.state
@@ -41,13 +44,14 @@ class Education extends Component {
         <div className="slider">
           <Slider {...this.state.settings}>
 
-            <div>Codaisseur <img src={education_icon} alt=""/> </div>
-            <div>PHP Coolness  <img src={education_icon} alt=""/> < /div>
-
-            <div>REACT awesome
-            <img src={education_icon} alt=""/></div>
-            <div>Ruby! cool awesome
-            <img src={education_icon} alt=""/></div>
+            <div> <h3> Codaisseur Academy </h3> <img src={Coda} alt=""/>
+            </div>
+            <div> <h3> PHP Cursus </h3>  <img src={PHP} alt=""/>
+            </div>
+            <div><h3> JS React Cursus </h3>
+            <img src={JS} alt=""/></div>
+            <div><h3> Ruby on Rails </h3>
+            <img src={RoR} alt=""/></div>
 
           </Slider>
         </div>

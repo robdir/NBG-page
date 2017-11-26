@@ -6,7 +6,6 @@ import Navigation from './components/Navigation';
 import Salary from './components/Salary';
 import Competences from './components/Competences';
 import Jobmarket from './components/Jobmarket'
-import Education from './components/Education'
 import Description from './components/Description'
 import Network from './components/Network'
 import Personality from './components/Personality'
@@ -15,6 +14,7 @@ import Beroepskeuze from './components/Beroepskeuze'
 import Footer from './components/Footer'
 import Banner from './components/Banner'
 import Books from './components/Books';
+import Vacancies from './components/Vacancies'
 import './App.css';
 
 
@@ -37,7 +37,7 @@ class App extends Component {
         <div className="master-container">
         <Description />
         <Jobmarket />
-        <Education />
+        <Vacancies />
         <Salary />
         <Network />
         <Competences />

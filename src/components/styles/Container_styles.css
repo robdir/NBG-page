@@ -27,7 +27,7 @@
 .footer {
   width: 550em;
   display: inline-block;
-  height: 50px;
+  height: 120px;
   background-color: #14bcf0;
   position: absolute;
 }
@@ -45,7 +45,10 @@ that overwrite the attributes or add additional ones for the specific subject*/
   padding: 2em;
 }
 
-.competences {}
+.competences {
+  max-width: 45%;
+  height: 20em;
+}
 
 
 .description {
@@ -54,7 +57,7 @@ that overwrite the attributes or add additional ones for the specific subject*/
 
 .education {
   min-height: 15em;
-  max-width: 100em;
+  max-width: 54em;
   padding: 2em;
 }
 
@@ -87,6 +90,11 @@ that overwrite the attributes or add additional ones for the specific subject*/
   height: 35em;
 }
 
+.vacancies {
+  max-width: 85em;
+  min-height: 20em;
+  padding: 2em;
+}
 /*End of container styles  */
 
 .chart-jobmarket {
@@ -107,4 +115,6 @@ that overwrite the attributes or add additional ones for the specific subject*/
 
 .slider img {
   height: 120px;
+  margin-left: auto;
+  margin-right: auto;
 }
