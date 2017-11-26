@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import './styles/Container_styles.css'
 import Slider from 'react-slick'
 import education_icon from '../images/education_icon.svg'
+import PropTypes from 'prop-types'
+import { connect } from 'react-redux'
+import { GetCourses } from '../actions/springest_courses'
 
 class Education extends Component {
   constructor(props){
@@ -17,6 +20,13 @@ class Education extends Component {
 
   }}//constructor and this.state
 
+  componentWillMount(){
+    this.props.GetCourses()
+}
+  static propTypes = {
+    courses: PropTypes.String
+  }
+
   render() {
     return(
         <div className="container education" id="Opleiding">
@@ -24,6 +34,7 @@ class Education extends Component {
         <hr/>
 
         <div className="springest-courses">
+        {this.props.courses}
         </div>
 
 
@@ -47,4 +58,14 @@ class Education extends Component {
     }
 }
 
-export default Education
+
+const mapStateToProps = function(state){
+  return{
+    courses: state.courses
+  }
+}
+
+const mapDispatchToProps = {GetCourses}
+
+
+export default connect(mapStateToProps, mapDispatchToProps)(Education)
