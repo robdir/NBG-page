@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Education from './Education'
 import './styles/Container_styles.css'
 import './styles/Jobmarket.css'
 import DoughnutChart from '../graphs/Doughnutchart'
@@ -55,7 +56,7 @@ class Jobmarket extends Component {
               </div>
 
 
-              <div className="Block">  </div>
+              <div className="Block"> <Education/>  </div>
 
 
 

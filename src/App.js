@@ -6,7 +6,6 @@ import Navigation from './components/Navigation';
 import Salary from './components/Salary';
 import Competences from './components/Competences';
 import Jobmarket from './components/Jobmarket'
-import Education from './components/Education'
 import Description from './components/Description'
 import Network from './components/Network'
 import Personality from './components/Personality'
@@ -37,7 +36,6 @@ class App extends Component {
         <div className="master-container">
         <Description />
         <Jobmarket />
-        <Education />
         <Salary />
         <Network />
         <Competences />

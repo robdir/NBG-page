@@ -54,7 +54,7 @@ that overwrite the attributes or add additional ones for the specific subject*/
 
 .education {
   min-height: 15em;
-  max-width: 100em;
+  max-width: 50em;
   padding: 2em;
 }
 
