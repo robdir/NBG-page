@@ -28,6 +28,11 @@ class Books extends Component {
   static propTypes = {
     books: PropTypes.arrayOf(PropTypes.string)
   }
+  /*static propTypes = {
+    books: PropTypes.arrayOf(PropTypes.shape({
+     title_and_price: PropTypes.string,
+     images: PropTypes.array
+   })).isRequired,*/
 
   render() {
     return(
