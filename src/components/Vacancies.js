@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import './styles/Container_styles.css'
 import Slider from 'react-slick'
+import PHP from '../images/icons/php-outline.png'
+import NJS from '../images/icons/nodejs.png'
+import SQL from '../images/icons/sql.png'
+import JS from '../images/icons/react.png'
+import Native from '../images/icons/react-native.png'
+
 
 class Vacancies extends Component {
   constructor(props){
@@ -33,17 +39,17 @@ class Vacancies extends Component {
         <div className="slider">
           <Slider {...this.state.settings}>
 
-            <div> <p> Stage: Backend developer (PHP, Mediadeveloper) </p>
+            <div> <h3> Stage: Backend developer (PHP, Mediadeveloper) </h3> <img src={PHP} alt=""/>
             </div>
-            <div> <p> Node.js developer </p>
+            <div> <h3> Node.js developer </h3>  <img src={NJS} alt=""/>
             </div>
-            <div><p> Senior Backend Developer</p>
+            <div><h3> Senior Backend Developer</h3> <img src={SQL} alt=""/>
             </div>
-            <div><p> Frontend Engineer (English)</p>
+            <div><h3> Frontend Engineer (English)</h3> <img src={JS} alt=""/>
             </div>
-            <div><p> E-commerce Webdeveloper (PHP)</p>
+            <div><h3> E-commerce Webdeveloper (PHP)</h3> <img src={PHP} alt=""/>
             </div>
-            <div><p> Mobile Web Developer</p>
+            <div><h3> Mobile Web Developer</h3> <img src={Native} alt=""/>
             </div>
 
           </Slider>

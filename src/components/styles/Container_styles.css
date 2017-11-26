@@ -115,4 +115,6 @@ that overwrite the attributes or add additional ones for the specific subject*/
 
 .slider img {
   height: 120px;
+  margin-left: auto;
+  margin-right: auto;
 }

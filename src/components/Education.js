@@ -33,13 +33,13 @@ class Education extends Component {
         <div className="slider">
           <Slider {...this.state.settings}>
 
-            <div> <p> Codaisseur Academy </p> <img src={Coda} alt=""/>
+            <div> <h3> Codaisseur Academy </h3> <img src={Coda} alt=""/>
             </div>
-            <div> <p> PHP Cursus </p>  <img src={PHP} alt=""/>
+            <div> <h3> PHP Cursus </h3>  <img src={PHP} alt=""/>
             </div>
-            <div><p> JS React Cursus </p>
+            <div><h3> JS React Cursus </h3>
             <img src={JS} alt=""/></div>
-            <div><p> Ruby on Rails </p>
+            <div><h3> Ruby on Rails </h3>
             <img src={RoR} alt=""/></div>
 
           </Slider>
