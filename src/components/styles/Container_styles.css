@@ -27,25 +27,34 @@
 .footer {
   width: 550em;
   display: inline-block;
-  height: 100px;
+  height: 50px;
   background-color: #14bcf0;
   position: absolute;
+}
+
+.footer p {
+  color: White;
+  display: inline-block;
 }
 
 /* All containers have the container css, and one of the following styles
 that overwrite the attributes or add additional ones for the specific subject*/
 
 .books {
+  max-width: 54em;
   padding: 2em;
 }
 
 .competences {}
 
-.description {}
+
+.description {
+}
+
 
 .education {
   min-height: 15em;
-  max-width: fit-content;
+  max-width: 100em;
   padding: 2em;
 }
 
@@ -62,7 +71,10 @@ that overwrite the attributes or add additional ones for the specific subject*/
   height: 35em;
 }
 
-.personality {}
+.personality {
+  max-width: 40em;
+}
+
 
 .network-img img {
   border: solid 2px #c9d9e6;
