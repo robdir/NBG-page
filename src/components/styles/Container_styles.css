@@ -40,15 +40,19 @@
 /* All containers have the container css, and one of the following styles
 that overwrite the attributes or add additional ones for the specific subject*/
 
+.beroepskeuze {}
+
+.beroepskeuze h2 {
+  color: black;
+  font-style: italic;
+}
+
 .books {
   max-width: 54em;
   padding: 2em;
 }
 
-.competences {
-  max-width: 45%;
-  height: 20em;
-}
+.competences {}
 
 .description {}
 
@@ -63,9 +67,7 @@ that overwrite the attributes or add additional ones for the specific subject*/
   flex-direction: column;
 }
 
-.interview {
-  max-width: 50%;
-}
+.interview {}
 
 .jobmarket {
   flex-grow: 2;
@@ -108,6 +110,10 @@ that overwrite the attributes or add additional ones for the specific subject*/
   text-align: center;
   background-color: #7DD5F0;
   border-radius: 100px;
+}
+
+.mini-footer {
+  font-size: 10px;
 }
 
 .slider {

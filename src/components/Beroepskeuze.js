@@ -5,10 +5,9 @@ class Beroepskeuze extends Component {
 
   render() {
     return(
-        <div className="container">
+        <div className="container beroepskeuze">
 
-          <h2> Is het beroep webdeveloper iets voor jou?</h2>
-          <hr />
+          <h2> "Is het beroep webdeveloper iets voor mij?" </h2>
         <p>Zou je graag webdeveloper willen worden? Of weet je nog niet
         welk beroep bij jou past? Als je wilt weten hoe je jouw eigenschappen
          en competenties kunt gebruiken op de arbeidsmarkt, vul dan onze

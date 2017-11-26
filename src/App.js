@@ -15,7 +15,7 @@ import Footer from './components/Footer'
 import Banner from './components/Banner'
 import Books from './components/Books';
 import Vacancies from './components/Vacancies'
-import CardExampleWithAvatar from './components/Interview'
+import Interview from './components/Interview'
 import './App.css';
 
 
@@ -46,7 +46,7 @@ class App extends Component {
         <Personality />
         <Organisation />
         <Beroepskeuze />
-        <CardExampleWithAvatar />
+        <Interview />
         </div>
         <Footer/>
         </div>

@@ -85,8 +85,9 @@ class DoughnutChart extends PureComponent {
               <p> Goed </p>
             </div>
             <div className="single-chart">
+            <div className="counter"> <h2> Huidige aantal vacatures* </h2> <p> {this.state.amount_of_vacancies} </p>
             </div>
-            <div className="counter"> <h2> Huidige aantal vacatures* </h2> <p> {this.state.amount_of_vacancies} </p> </div>
+              </div>
           </div>
         );
       }
