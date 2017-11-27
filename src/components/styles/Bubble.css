@@ -24,6 +24,9 @@
   padding: 5px;
   /* Position the text */
   position: absolute;
+  left: 20px;
+  display: flex;
+  flex-wrap: wrap;
   z-index: 1;
   border: solid 1px black;
 }
