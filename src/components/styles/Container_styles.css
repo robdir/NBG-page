@@ -16,8 +16,15 @@
 }
 
 .fishyfishy {
-  height: 300px;
-  width: 900px;
+  height: auto;
+  width: auto;
+}
+
+.fishyfishy div {
+  border: solid 2px #c9d9e6;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .container h2, h3 {
@@ -67,13 +74,6 @@ that overwrite the attributes or add additional ones for the specific subject*/
 
 .personality {
   max-width: 40em;
-}
-
-.network-img img {
-  border: solid 2px #c9d9e6;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
 
 .salary {
