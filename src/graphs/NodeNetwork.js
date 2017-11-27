@@ -26,7 +26,7 @@ class NodeNetwork extends PureComponent {
           color: "#000000",
         },
         physics: {
-          enabled: true
+          enabled: false
         },
         nodes: {
           shape: 'circle',

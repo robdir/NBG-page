@@ -6,8 +6,7 @@
   font-family: sans-serif;
   font-weight: bold;
   font-size: 16px;
-  padding: 50px;
-  /*margin-top: 50px;*/
+  overflow: hidden;
 }
 
 .footer .footer-left,

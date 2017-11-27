@@ -3,17 +3,23 @@ font-family: 'Barlow Semi Condensed', sans-serif;
   text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+
+  html, body {
+      width: auto;
+      height: auto;
+      margin: 0px;
+      padding: 0px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
 }
 
 .master-container {
-  max-width: 100%;
+  width: 100%;
   box-shadow: 7px 6px 5px 1px #542b2b;
   margin: 10px, 0, 0, 5em;
   padding: 10px;
@@ -21,9 +27,6 @@ font-family: 'Barlow Semi Condensed', sans-serif;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  /*border-bottom: solid 5px #ff8f16;
-  border-left: solid 5px #ff8f16;
-  border-right: solid 5px #ff8f16;*/
 }
 
 .master-container p, h3, h2 {

@@ -49,9 +49,8 @@ class App extends Component {
         <Organisation />
         <Beroepskeuze />
         <Interview />
-          <Footer/>
+        <Footer/>
         </div>
-
         </div>
       </MuiThemeProvider>
     )
