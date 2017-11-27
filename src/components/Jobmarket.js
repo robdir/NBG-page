@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './styles/Container_styles.css'
 import DoughnutChart from '../graphs/Doughnutchart'
-import $ from 'jquery';
+//import $ from 'jquery';
 import './styles/Block.css'
 import MarketIcon from 'material-ui-icons/Poll';
 import SmoothCollapse from 'react-smooth-collapse'
@@ -50,10 +50,11 @@ class Jobmarket extends Component {
               <div>
               <p>Hierboven vind je de score voor het arbeidsmarktperspectief voor het beroep webdeveloper.
               We hebben 5 scores: Zeer Goed, Goed, Redelijk, Matig en Slecht.
-              <hr/>
-              </p> </div>
 
-              <div className= "mini-footer"><p> *Mogelijk gemaakt door <a href=""> Intelligence Group </a> </p>
+              </p> </div>
+              <hr/>
+
+              <div className= "mini-footer"> <p> *Mogelijk gemaakt door <a href=""> Intelligence Group </a> </p>
               </div>
               </SmoothCollapse>
               </div>

@@ -17,10 +17,7 @@ class Education extends Component {
     this.props.GetCourses()
 }
   static propTypes = {
-    courses: PropTypes.arrayOf({
-      course: PropTypes.object
-    }
-    )
+    courses: PropTypes.arrayOf( PropTypes.object)
   }
 
   render() {
@@ -63,7 +60,7 @@ class Education extends Component {
           <Slider {...settings}>
 
           {this.props.courses.map((item,index) =>
-            <div key={index}>
+            <div key={0}>
             <div className="slider-item">
                   <div className="slider-content"> <h3> {item['trainings'][0]['name']}</h3>
                   </div>
@@ -79,7 +76,7 @@ class Education extends Component {
               </div>)}
 
                 {this.props.courses.map((item,index) =>
-                  <div key={index}>
+                  <div key={1}>
                   <div className="slider-item">
                           <div className="slider-content"> <h3> {item['trainings'][6]['name']}</h3>
                           </div>
@@ -94,7 +91,7 @@ class Education extends Component {
                       </div>)}
 
                       {this.props.courses.map((item,index) =>
-                          <div key={index}>
+                          <div key={3}>
                           <div className="slider-item">
                               <div className="slider-content"> <h3> {item['trainings'][1]['name']} </h3>
                               </div>

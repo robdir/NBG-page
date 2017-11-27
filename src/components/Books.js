@@ -19,8 +19,9 @@ class Books extends Component {
     this.props.UpdateBooks()
 }
   static propTypes = {
-    books: PropTypes.arrayOf(PropTypes.string)
+    books: PropTypes.array
   }
+
 
   render() {
     var settings = {
@@ -52,7 +53,10 @@ class Books extends Component {
         }
       }]
     };
+
+
     return(
+
       <div className="container books">
         <h2> <StarIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/> Recommended Books </h2>
         <hr/>
@@ -61,10 +65,13 @@ class Books extends Component {
 
         {this.props.books.map((item,index) =>
           <div key={index}>
-          <img src={bookcover} alt="BLAH"/>
-          <p>{item}</p>
+          <p>{item[0]}</p>
+          <img src={item[1] && item[1][0]['url']} alt=""/>
+
 
           </div>)}
+
+
         </Slider>
         </div>
         </div>
