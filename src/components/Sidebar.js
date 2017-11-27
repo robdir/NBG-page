@@ -26,6 +26,7 @@ class Sidebar extends PureComponent {
     return (
       <div>
         <Menu
+          style={{ height: "40px", color: "White"}}
           label="Toggle Drawer"
           onClick={this.Open}
         />
