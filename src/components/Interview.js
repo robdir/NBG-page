@@ -7,8 +7,7 @@ import './styles/Container_styles.css'
 
 const Interview = () => (
   <div className = "container interview">
-  <Card
-    style={{ backgroundcolor:"WhiteSmoke" }}>
+  <Card>
     <CardHeader
       title="Written by: Robert van El"
       subtitle= "Content Manager van NationaleBeroepenGids"
