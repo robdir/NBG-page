@@ -23,8 +23,8 @@ class Personality extends Component {
     return(
         <div className="container personality" id='Persoontypen'>
         <h2> <CheckIcon onClick={() => this._toggle()} style={iconStyles} color='#14bcf0' hoverColor='#000000'/> Persoonstypen webdeveloper </h2>
-        <SmoothCollapse expanded={expanded}>
         <hr/>
+        <SmoothCollapse expanded={expanded}>
         <p>De Webdeveloper zit vaak overal tussen en moet zich snel aan kunnen passen.
         Ook moet de Webdeveloper het leuk vinden om steeds een nieuwe uitdaging aan te
         gaan en daarbij met andere mensen samen te kunnen werken (Levensgenieter).
