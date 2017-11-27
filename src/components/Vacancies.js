@@ -15,20 +15,38 @@ const iconStyles = {
                 };
 
 class Vacancies extends Component {
-  constructor(props){
-    super(props);
-    this.state = {
-      settings: {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 3
-      }
 
-  }}//constructor and this.state
 
   render() {
+    var settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      initialSlide: 0,
+      responsive: [{
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          dots: true
+        }
+      }, {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      }, {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }]
+    };
     return(
         <div className="container vacancies" id="Vacatures">
         <h2> <VacIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/> Vacatures Webdeveloper </h2>
@@ -43,7 +61,7 @@ class Vacancies extends Component {
         <hr/>
 
         <div className="slider">
-          <Slider {...this.state.settings}>
+          <Slider {...settings}>
 
             <div> <h3> Stage: Backend developer (PHP, Mediadeveloper) </h3> <img src={PHP} alt=""/>
             </div>
