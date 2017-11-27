@@ -40,6 +40,10 @@ that overwrite the attributes or add additional ones for the specific subject*/
   font-style: italic;
 }
 
+.drawer {
+  background-color: #14bcf0;
+}
+
 .books {
   max-width: 50%;
   padding: 2em;
@@ -82,7 +86,7 @@ that overwrite the attributes or add additional ones for the specific subject*/
 }
 
 .personality {
-  max-width: 40em;
+  width: auto;
 }
 
 .salary {
