@@ -6,28 +6,28 @@ class Footer extends Component {
 
   render() {
     return(
-      <footer class="footer">
-    <div class="footer-left col-md-4 col-sm-6">
-      <p class="about">
+      <footer className="footer">
+    <div className="footer-left col-md-4 col-sm-6">
+      <p className="about">
       <img src={Logo} alt="NBG"/>
       </p>
     </div>
-    <div class="footer-center col-md-4 col-sm-6">
+    <div className="footer-center col-md-4 col-sm-6">
       <div>
         <h2> Organisatie</h2>
       </div>
       <div>
-        <i class="fa fa-phone"></i>
+        <i className="fa fa-phone"></i>
         <p><a href=""> Over ons</a></p>
       </div>
       <div>
-        <i class="fa fa-envelope"></i>
+        <i className="fa fa-envelope"></i>
         <p><a href=""> Contact opnemen</a></p>
       </div>
     </div>
-    <div class="footer-right col-md-4 col-sm-6">
+    <div className="footer-right col-md-4 col-sm-6">
       <h2> Volg Ons </h2>
-      <p class="menu">
+      <p className="menu">
         <a href=""> Blog</a>
         --
         <a href=""> Facebook</a>
@@ -39,7 +39,7 @@ class Footer extends Component {
         <a href=""> Google+</a>
       </p>
       <br/>
-      <p class="name"> NationaleBeroepenGids &copy; 2017</p>
+      <p className="name"> NationaleBeroepenGids &copy; 2017</p>
     </div>
   </footer>
       )

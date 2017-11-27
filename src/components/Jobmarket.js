@@ -41,18 +41,13 @@ class Jobmarket extends Component {
               <br/>
                 <DoughnutChart />
               <br/>
-              <div> <h3> Arbeidsmarktperspectief score webdeveloper </h3>
+              <div>
               <p>Hierboven vind je de score voor het arbeidsmarktperspectief voor het beroep webdeveloper.
               We hebben 5 scores: Zeer Goed, Goed, Redelijk, Matig en Slecht.
+              <hr/>
               </p> </div>
-              <p>
-              This score is calculated through data recieved from Intelligence Group & <a href=""> arbeitsmarktkansen.nl</a>
-              The graph above indicates one of the factors contributing to the 'Zeer Goed' score of a career as a Web developer.</p>
-
-              <p className= "mini-footer"> *Mogelijk gemaakt door <a href=""> Intelligence Group </a> </p
-
-
-
+              <div className= "mini-footer"><p> *Mogelijk gemaakt door <a href=""> Intelligence Group </a> </p>
+              </div>
               </div>
       )
     }
