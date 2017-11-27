@@ -32,14 +32,16 @@ class Sidebar extends PureComponent {
         />
         <MuiThemeProvider muiTheme={muiTheme}>
         <Drawer open={this.state.open}>
-          <MenuItem>Ga direct naar:</MenuItem>
+          <MenuItem><p>Ga direct naar:</p></MenuItem>
           <hr/>
-          <MenuItem onClick={this.Close}><a href='#Omschrijving'>Functieomschrijving</a></MenuItem>
-          <MenuItem onClick={this.Close}><a href='#Vacatures'>Vacatures</a></MenuItem>
-          <MenuItem onClick={this.Close}><a href='#Opleiding'>Opleiding</a></MenuItem>
-          <MenuItem onClick={this.Close}><a href='#Salaris'>Salaris</a></MenuItem>
-          <MenuItem onClick={this.Close}><a href='#Netwerk'>Netwerk</a></MenuItem>
-          <MenuItem onClick={this.Close}><a href='#Persoontypen'>Persoontypen</a></MenuItem>
+          <MenuItem onClick={this.Close}><a href='#Omschrijving'><p>Functieomschrijving</p></a></MenuItem>
+          <MenuItem onClick={this.Close}><a href='#Vacatures'><p>Vacatures</p></a></MenuItem>
+          <MenuItem onClick={this.Close}><a href='#Opleiding'><p>Opleiding</p></a></MenuItem>
+          <MenuItem onClick={this.Close}><a href='#Salaris'><p>Salaris</p></a></MenuItem>
+          <MenuItem onClick={this.Close}><a href='#Netwerk'><p>Netwerk</p></a></MenuItem>
+          <MenuItem onClick={this.Close}><a href='#Persoontypen'><p>Persoontypen</p></a></MenuItem>
+          <MenuItem onClick={this.Close}><a href='#Organisatie'><p>Organisaties</p></a></MenuItem>
+          <MenuItem onClick={this.Close}><a href='#Interview'><p>Interview</p></a></MenuItem>
           <hr/>
           <MenuItem onClick={this.Close}> Menu sluiten </MenuItem>
         </Drawer>

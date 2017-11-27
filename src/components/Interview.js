@@ -6,7 +6,7 @@ import blogwriter from '../images/writer_of_blog.jpg'
 import './styles/Container_styles.css'
 
 const Interview = () => (
-  <div className = "container interview">
+  <div className = "container interview" id="Interview">
   <Card>
     <CardHeader
       title="Written by: Robert van El"
