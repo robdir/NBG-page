@@ -14,7 +14,6 @@ const Interview = () => (
       avatar={blogwriter}
     />
     <CardMedia
-      actAsExpander= 'true'
       overlay={<CardTitle title=" 'I am living the dream, never going back to my old job' " subtitle="Jan de Vries made the swith from cassiere to webdeveloper" />}
 
     >
