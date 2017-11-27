@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import {Doughnut} from 'react-chartjs-2';
-import '../components/styles/Doughnuts.css'
+import '../components/styles/Container_styles.css'
 
 class DoughnutChart extends PureComponent {
   constructor(props){

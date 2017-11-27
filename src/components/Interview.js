@@ -1,6 +1,6 @@
 import React from 'react';
 import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
-import FlatButton from 'material-ui/FlatButton';
+import RaisedButton from 'material-ui/RaisedButton';
 import webdeveloper from '../images/web-developer-interview.jpg'
 import blogwriter from '../images/writer_of_blog.jpg'
 import './styles/Container_styles.css'
@@ -14,7 +14,6 @@ const Interview = () => (
       avatar={blogwriter}
     />
     <CardMedia
-      actAsExpander= 'true'
       overlay={<CardTitle title=" 'I am living the dream, never going back to my old job' " subtitle="Jan de Vries made the swith from cassiere to webdeveloper" />}
 
     >
@@ -26,7 +25,7 @@ const Interview = () => (
     We beginnen de dag meestal eerst met een goede kop koffie. Daarna hebben we altijd een stand-up van 15 minuten. We bespreken... </p>
     </CardText>
     <CardActions>
-      <FlatButton label="Lees het hele interview" />
+      <RaisedButton label="Lees het hele interview" />
     </CardActions>
   </Card>
   </div>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './styles/Container_styles.css'
 import NotifIcon from 'material-ui-icons/NotificationsActive';
+import RaisedButton from 'material-ui/RaisedButton';
 
 const iconStyles = {
                     marginRight: 24,
@@ -21,6 +22,7 @@ class Beroepskeuze extends Component {
          en competenties kunt gebruiken op de arbeidsmarkt, vul dan onze
          beroepskeuze test in en kom erachter of een baan als webdeveloper
           bij jou past.</p>
+              <RaisedButton label="Doe de Beroepskeuze Test" />
         </div>
       )
     }

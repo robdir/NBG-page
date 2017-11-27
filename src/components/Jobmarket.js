@@ -13,7 +13,6 @@ const iconStyles = {
 
 class Jobmarket extends Component {
 
-
   render() {
     //this is to bypass CORS.. yeah. http://multiverso.me/AllOrigins/ ///
     var url = 'https://allorigins.us/get?method=raw&url=' + encodeURIComponent("https://trends.springest.com/automatisering-ict") + "&callback=?";
@@ -46,8 +45,10 @@ class Jobmarket extends Component {
               We hebben 5 scores: Zeer Goed, Goed, Redelijk, Matig en Slecht.
               <hr/>
               </p> </div>
+
               <div className= "mini-footer"><p> *Mogelijk gemaakt door <a href=""> Intelligence Group </a> </p>
               </div>
+
               </div>
       )
     }

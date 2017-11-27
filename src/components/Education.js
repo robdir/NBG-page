@@ -34,17 +34,28 @@ class Education extends Component {
     this.props.GetCourses()
 }
   static propTypes = {
-    courses: PropTypes.String
+    courses: PropTypes.arrayOf(PropTypes.object)
   }
 
   render() {
+
+console.log(this.props.courses)
+/*<div className="springest-courses">
+{this.props.courses[0].map((item,index) =>
+   <div key={index}>
+    <p>{item}</p>
+    </div>)}
+
+  </div>) */
+
+
     return(
         <div className="container education" id="Opleiding">
         <h2> <EduIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/>  Webdeveloper worden: Opleiding tot webdeveloper </h2>
         <hr/>
 
         <div className="springest-courses">
-        {this.props.courses}
+        {this.props.courses.toString()}
         </div>
 
 
@@ -61,13 +72,12 @@ class Education extends Component {
             <img src={RoR} alt=""/></div>
 
           </Slider>
+            </div>
         </div>
 
-        </div>
-
-      )
-    }
-}
+      )//return
+    }//return
+} //class
 
 
 const mapStateToProps = function(state){
