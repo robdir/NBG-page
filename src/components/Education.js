@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import './styles/Container_styles.css'
 import Slider from 'react-slick'
-import Coda from '../images/icons/coda.png'
-import PHP from '../images/icons/php-outline.png'
-import JS from '../images/icons/react.png'
-import RoR from '../images/icons/ruby.png'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { GetCourses } from '../actions/springest_courses'
@@ -17,18 +13,6 @@ const iconStyles = {
                 };
 
 class Education extends Component {
-  constructor(props){
-    super(props);
-    this.state = {
-      settings: {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 3
-      }
-
-  }}//constructor and this.state
 
   componentWillMount(){
     this.props.GetCourses()
@@ -41,6 +25,35 @@ class Education extends Component {
   }
 
   render() {
+   var settings = {
+     dots: true,
+     infinite: true,
+     speed: 500,
+     slidesToShow: 3,
+     slidesToScroll: 3,
+     initialSlide: 0,
+     responsive: [{
+       breakpoint: 1024,
+       settings: {
+         slidesToShow: 3,
+         slidesToScroll: 3,
+         dots: true
+       }
+     }, {
+       breakpoint: 600,
+       settings: {
+         slidesToShow: 2,
+         slidesToScroll: 2,
+         initialSlide: 2
+       }
+     }, {
+       breakpoint: 480,
+       settings: {
+         slidesToShow: 1,
+         slidesToScroll: 1
+       }
+     }]
+   };
 
 
     return(
@@ -49,7 +62,7 @@ class Education extends Component {
         <hr/>
 
         <div className="slider">
-          <Slider {...this.state.settings}>
+          <Slider {...settings}>
 
           {this.props.courses.map((item,index) =>
             <div key={index}>

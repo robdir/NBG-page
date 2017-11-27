@@ -15,39 +15,49 @@ const iconStyles = {
 
 class Books extends Component {
 
-  constructor(props){
-    super(props);
-    this.state = {
-      settings: {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 3
-      }
-
-  }}//constructor and this.state
-
-// comment 
   componentWillMount(){
     this.props.UpdateBooks()
 }
   static propTypes = {
     books: PropTypes.arrayOf(PropTypes.string)
   }
-  /*static propTypes = {
-    books: PropTypes.arrayOf(PropTypes.shape({
-     title_and_price: PropTypes.string,
-     images: PropTypes.array
-   })).isRequired,*/
 
   render() {
+    var settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      initialSlide: 0,
+      responsive: [{
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          dots: true
+        }
+      }, {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      }, {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }]
+    };
     return(
       <div className="container books">
         <h2> <StarIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/> Recommended Books </h2>
         <hr/>
       <div className="slider">
-        <Slider {...this.state.settings}>
+        <Slider {...settings}>
 
         {this.props.books.map((item,index) =>
           <div key={index}>
