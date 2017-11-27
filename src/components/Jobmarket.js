@@ -24,15 +24,15 @@ class Jobmarket extends Component {
   render() {
     const {expanded} = this.state
     //this is to bypass CORS.. yeah. http://multiverso.me/AllOrigins/ ///
-    var url = 'https://allorigins.us/get?method=raw&url=' + encodeURIComponent("https://trends.springest.com/automatisering-ict") + "&callback=?";
-
-      var get_data =
-        $.get(url, function(data) {
-          var count = $(data).find('#page-wrapper > div.row.avg-row.fade-in > div:nth-child(1) > div > div > div > div.col-xs-8.text-right > div')
-            console.log("count", count.text())
-            var education_count = count.text();
-            return education_count
-          })
+    // var url = 'https://allorigins.us/get?method=raw&url=' + encodeURIComponent("https://trends.springest.com/automatisering-ict") + "&callback=?";
+    //
+    //   var get_data =
+    //     $.get(url, function(data) {
+    //       var count = $(data).find('#page-wrapper > div.row.avg-row.fade-in > div:nth-child(1) > div > div > div > div.col-xs-8.text-right > div')
+    //         console.log("count", count.text())
+    //         var education_count = count.text();
+    //         return education_count
+    //       })
 
     return(
         <div className="container jobmarket">
