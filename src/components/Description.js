@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './styles/Container_styles.css'
 import CreateIcon from 'material-ui-icons/Create';
+import SmoothCollapse from 'react-smooth-collapse'
 
 const iconStyles = {
                     marginRight: 24,
@@ -9,12 +10,22 @@ const iconStyles = {
                 };
 
 class Description extends Component {
+  state: Object = {
+    expanded: true
+  };
+
+  _toggle() {
+    this.setState({expanded: !this.state.expanded})
+  }
 
   render() {
+    const {expanded} = this.state
+
     return(
         <div className="container description" id="Omschrijving">
-        <h2> <CreateIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/>Functieomschrijving: wat doet een Webdeveloper? </h2>
+        <h2> <CreateIcon onClick={() => this._toggle()} style={iconStyles} color='#14bcf0' hoverColor='#000000'/>Functieomschrijving: wat doet een Webdeveloper? </h2>
         <hr/>
+        <SmoothCollapse expanded={expanded}>
           <p>De Webdeveloper heeft een combinatie van taken waar zowel technisch als creatief inzicht voor nodig is.
           Een Webdeveloper moet kunnen <b>programmeren, redigeren en presenteren.</b> De verdeling van deze taken is in elke functie anders,
           maar steeds geldt dat de Webdeveloper multidisciplinair te werk zal gaan. Dat betekent natuurlijk niet dat men overal maar oppervlakkige kennis van hoeft te hebben;
@@ -27,6 +38,7 @@ class Description extends Component {
           goed bijhouden en relevante ontwikkelingen toepassen in opdrachten. Het is hierbij van belang dat hij de mogelijkheden van systemen goed inschat,
           omdat een technisch hoogstaande layout weinig nut heeft als de website steeds crasht.
           Zo is de Webdeveloper steeds bezig om zich aan de veranderende voorwaarden en mogelijkheden aan te passen. </p>
+          </SmoothCollapse>
         </div>
       )
     }

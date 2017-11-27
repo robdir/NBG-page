@@ -69,7 +69,9 @@ that overwrite the attributes or add additional ones for the specific subject*/
   flex-direction: column;
 }
 
-.interview {}
+.interview {
+  background-color: WhiteSmoke;
+}
 
 .jobmarket {
   flex-grow: 2;

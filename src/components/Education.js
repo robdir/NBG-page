@@ -13,7 +13,6 @@ const iconStyles = {
                 };
 
 class Education extends Component {
-
   componentWillMount(){
     this.props.GetCourses()
 }
@@ -54,7 +53,6 @@ class Education extends Component {
        }
      }]
    };
-
 
     return(
         <div className="container education" id="Opleiding">
@@ -110,10 +108,9 @@ class Education extends Component {
                                 </div>
                             </div>
                           </div>)}
-
           </Slider>
-            </div>
         </div>
+      </div>
 
       )//return
     }//render

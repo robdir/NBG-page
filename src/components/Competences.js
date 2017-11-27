@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './styles/Bubble.css'
 import './styles/Container_styles.css'
 import CheckIcon from 'material-ui-icons/Check';
+import SmoothCollapse from 'react-smooth-collapse'
 
 const iconStyles = {
                     marginRight: 24,
@@ -10,12 +11,22 @@ const iconStyles = {
                 };
 
 class Competences extends Component {
+    state: Object = {
+      expanded: true
+    };
 
-  render() {
-    return(
+    _toggle() {
+      this.setState({expanded: !this.state.expanded})
+    }
+
+    render() {
+      const {expanded} = this.state
+
+      return (
         <div className="container competences">
-        <h2><CheckIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/>Competenties van een Webdeveloper </h2>
+        <h2><CheckIcon onClick={() => this._toggle()} style={iconStyles} color='#14bcf0' hoverColor='#000000'/>Competenties van een Webdeveloper </h2>
         <hr />
+        <SmoothCollapse expanded={expanded}>
         <div className="bubble-items ">
           <div className="bubble"><p> Klantgerichtheid </p>
           <span className="bubble-pop-up-text"> <p>Klantgerichtheid: Mensen die
@@ -49,8 +60,10 @@ class Competences extends Component {
              Tijdens brainstormsessies komen deze mensen vaak met heel veel ideeën. De competentie ‘innovatief’ heeft
              veel overeenkomsten met de competentie ‘creativiteit’. Deze mensen hebben vaak veel verschillende creatieve
              ideeën. Daarbij houden ze het resultaat wel voor ogen. Verder kunnen deze innovators vaak goed conceptueel denken,
-            zij zien oplossingen voor problemen en kijken hierbij niet direct naar de regels en randvoorwaarden.</p> </span></div>
+            zij zien oplossingen voor problemen en kijken hierbij niet direct naar de regels en randvoorwaarden.</p> </span>
+            </div>
         </div>
+        </SmoothCollapse>
         </div>
       )
     }

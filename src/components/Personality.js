@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './styles/Container_styles.css'
 import './styles/Bubble.css'
 import CheckIcon from 'material-ui-icons/Check';
+import SmoothCollapse from 'react-smooth-collapse'
 
 const iconStyles = {
                     marginRight: 24,
@@ -9,12 +10,20 @@ const iconStyles = {
                     height:50,
                 };
 class Personality extends Component {
+  state: Object = {
+    expanded: true
+  };
 
+  _toggle() {
+    this.setState({expanded: !this.state.expanded})
+  }
 
   render() {
+    const {expanded} = this.state
     return(
         <div className="container personality" id='Persoontypen'>
-        <h2> <CheckIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/> Persoonstypen webdeveloper </h2>
+        <h2> <CheckIcon onClick={() => this._toggle()} style={iconStyles} color='#14bcf0' hoverColor='#000000'/> Persoonstypen webdeveloper </h2>
+        <SmoothCollapse expanded={expanded}>
         <hr/>
         <p>De Webdeveloper zit vaak overal tussen en moet zich snel aan kunnen passen.
         Ook moet de Webdeveloper het leuk vinden om steeds een nieuwe uitdaging aan te
@@ -42,6 +51,7 @@ class Personality extends Component {
             natuur goed in het houden van geheimen en is hij objectief. </p>
              </span></div>
         </div>
+        </SmoothCollapse>
         </div>
       )
     }
