@@ -9,14 +9,14 @@
   background-color: #14bcf0;
   color: #ffffff;
   border-radius: 50px;
-  min-width: 6em;
+  max-width: 6em;
   padding: 1em;
   margin: 1em;
   text-align: center;
 }
 .bubble .bubble-pop-up-text {
   visibility: hidden;
-  width: 400px;
+  width: 40%;
   background-color: WhiteSmoke;
   color: #000000;
   text-align: center;
@@ -32,5 +32,4 @@
 }
 .bubble:hover {
   background-color: #4286f4;
-  ;
 }

@@ -77,7 +77,7 @@ that overwrite the attributes or add additional ones for the specific subject*/
 }
 
 .salary {
-  height: 22em;
+  height: auto;
 }
 
 .vacancies {
