@@ -25,6 +25,12 @@ Organisaties waar een webdeveloper doorgaans werkzaam is </h2>
           of vaste basis. Vaak komt men dan op de communicatie- of marketingafdeling
            van de organisatie terecht. </p>
 
+           <ul class="tags">
+           <li><a href="" class="tag">Groot tot klein bedrijf</a></li>
+           <li><a href="" class="tag">Particulier en Publiek </a></li>
+           <li><a href="" class="tag">Profit en Non-Profit</a></li>
+          <li><a href="" class="tag">Freelance of vaste basis</a></li>
+           </ul>
               </div>
             </div>
       )

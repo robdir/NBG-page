@@ -13,7 +13,6 @@ const iconStyles = {
 
 class Jobmarket extends Component {
 
-
   render() {
     //this is to bypass CORS.. yeah. http://multiverso.me/AllOrigins/ ///
     var url = 'https://allorigins.us/get?method=raw&url=' + encodeURIComponent("https://trends.springest.com/automatisering-ict") + "&callback=?";

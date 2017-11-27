@@ -9,7 +9,7 @@ class Navigation extends PureComponent {
   render() {
     return (
       <AppBar
-       style={{ position: "fixed" }}
+       
         title="NationaleBeroepenGids.nl"
         iconElementLeft={<Sidebar/>}
         iconElementRight={<TextField hintText="Zoeken naar..."/>}

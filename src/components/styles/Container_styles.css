@@ -24,7 +24,6 @@
   text-align: center;
 }
 
-
 /* All containers have the container css, and one of the following styles
 that overwrite the attributes or add additional ones for the specific subject*/
 
@@ -41,6 +40,15 @@ that overwrite the attributes or add additional ones for the specific subject*/
 }
 
 .competences {}
+
+.chart-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.single-chart {}
 
 .description {}
 
@@ -112,4 +120,62 @@ that overwrite the attributes or add additional ones for the specific subject*/
   height: 120px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/*tags */
+
+.tags {
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.tags li {
+  float: left;
+}
+
+.tag {
+  background: #14bcf0;
+  border-radius: 3px 0 0 3px;
+  color: #fff;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 20px 0 23px;
+  position: relative;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+}
+
+.tag::before {
+  background: black;
+  border-radius: 10px;
+  content: '';
+  height: 6px;
+  left: 10px;
+  position: absolute;
+  width: 6px;
+  top: 10px;
+}
+
+.tag::after {
+  background: #fff;
+  border-bottom: 13px solid WhiteSmoke;
+  border-left: 10px solid #14bcf0;
+  border-top: 13px solid WhiteSmoke;
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.tag:hover {
+  background-color: #c9d9e6;
+  color: black;
+}
+
+.tag:hover::after {
+  border-left-color: #c9d9e6;
 }
