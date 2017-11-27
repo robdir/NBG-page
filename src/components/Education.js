@@ -34,19 +34,13 @@ class Education extends Component {
     this.props.GetCourses()
 }
   static propTypes = {
-    courses: PropTypes.arrayOf(PropTypes.object)
+    courses: PropTypes.arrayOf({
+      course: PropTypes.object
+    }
+    )
   }
 
   render() {
-
-console.log(this.props.courses)
-/*<div className="springest-courses">
-{this.props.courses[0].map((item,index) =>
-   <div key={index}>
-    <p>{item}</p>
-    </div>)}
-
-  </div>) */
 
 
     return(
@@ -54,29 +48,62 @@ console.log(this.props.courses)
         <h2> <EduIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/>  Webdeveloper worden: Opleiding tot webdeveloper </h2>
         <hr/>
 
-        <div className="springest-courses">
-        {this.props.courses.toString()}
-        </div>
-
-
         <div className="slider">
           <Slider {...this.state.settings}>
 
-            <div> <h3> Codaisseur Academy </h3> <img src={Coda} alt=""/>
-            </div>
-            <div> <h3> PHP Cursus </h3>  <img src={PHP} alt=""/>
-            </div>
-            <div><h3> JS React Cursus </h3>
-            <img src={JS} alt=""/></div>
-            <div><h3> Ruby on Rails </h3>
-            <img src={RoR} alt=""/></div>
+          {this.props.courses.map((item,index) =>
+            <div key={index}>
+            <div className="slider-item">
+                  <div className="slider-content"> <h3> {item['trainings'][0]['name']}</h3>
+                  </div>
+
+                  <div className="slider-content">   <p>Prijs: €{item['trainings'][0]['price']}</p>
+                    </div>
+                  <div className="slider-content">   <p>Duur: {item['trainings'][0]['total_run_time']} dagen</p>
+                    </div>
+
+                  <div className="slider-content">  <a href={item['trainings'][0]['institute']['url'] }><img src={item['trainings'][0]['institute']['logo'] } alt="" /></a>
+                    </div>
+                    </div>
+              </div>)}
+
+                {this.props.courses.map((item,index) =>
+                  <div key={index}>
+                  <div className="slider-item">
+                          <div className="slider-content"> <h3> {item['trainings'][6]['name']}</h3>
+                          </div>
+                          <div className="slider-content">   <p>Prijs: €{item['trainings'][6]['price']}</p>
+                            </div>
+                          <div className="slider-content">   <p>Duur: {item['trainings'][6]['total_run_time']}</p>
+                            </div>
+
+                          <div className="slider-content">  <a href={item['trainings'][6]['institute']['url'] }><img src={item['trainings'][6]['institute']['logo'] } alt="" /></a>
+                            </div>
+                            </div>
+                      </div>)}
+
+                      {this.props.courses.map((item,index) =>
+                          <div key={index}>
+                          <div className="slider-item">
+                              <div className="slider-content"> <h3> {item['trainings'][1]['name']} </h3>
+                              </div>
+
+                              <div className="slider-content">   <p>Prijs: €{item['trainings'][1]['price']}</p>
+                                </div>
+                              <div className="slider-content">   <p>Duur: 2 hours</p>
+                                </div>
+
+                              <div className="slider-content">  <a href={item['trainings'][1]['institute']['url'] }><img src={item['trainings'][1]['institute']['logo'] } alt="" /></a>
+                                </div>
+                            </div>
+                          </div>)}
 
           </Slider>
             </div>
         </div>
 
       )//return
-    }//return
+    }//render
 } //class
 
 

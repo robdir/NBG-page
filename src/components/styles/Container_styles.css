@@ -115,6 +115,18 @@ that overwrite the attributes or add additional ones for the specific subject*/
   padding: 4em, 4em, 4em, 4em;
 }
 
+.slider-item {
+  display: flex;
+  padding: 1em;
+  flex-direction: column;
+  box-shadow: 7px 6px 5px 1px #ded2d2;
+  border: 1px solid #ded2d2;
+  margin: 1em;
+  overflow: hidden;
+}
+
+.slider-content {}
+
 .slider img {
   height: 120px;
   margin-left: auto;
