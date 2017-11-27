@@ -8,6 +8,7 @@
   border-radius: 1px;
   height: fit-content;
   overflow: hidden;
+  width: 100%;
   flex-grow: 1;
 }
 
@@ -44,10 +45,7 @@ that overwrite the attributes or add additional ones for the specific subject*/
   background-color: #14bcf0;
 }
 
-.books {
-  max-width: 50%;
-  padding: 2em;
-}
+.books {}
 
 .competences {}
 
@@ -60,7 +58,9 @@ that overwrite the attributes or add additional ones for the specific subject*/
 
 .single-chart {}
 
-.description {}
+.description {
+  flex-grow: 1;
+}
 
 .education {
   min-height: 15em;
@@ -79,6 +79,13 @@ that overwrite the attributes or add additional ones for the specific subject*/
 
 .jobmarket {
   flex-grow: 2;
+  width: 40%;
+}
+
+@media (max-width: 768px) {
+  .jobmarket {
+    width: 100vw;
+  }
 }
 
 .network {
