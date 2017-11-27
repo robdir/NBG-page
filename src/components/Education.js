@@ -27,8 +27,8 @@ class Education extends Component {
         slidesToShow: 3,
         slidesToScroll: 3
       }
-
   }}//constructor and this.state
+
 
   componentWillMount(){
     this.props.GetCourses()
@@ -38,17 +38,6 @@ class Education extends Component {
   }
 
   render() {
-
-console.log(this.props.courses)
-/*<div className="springest-courses">
-{this.props.courses[0].map((item,index) =>
-   <div key={index}>
-    <p>{item}</p>
-    </div>)}
-
-  </div>) */
-
-
     return(
         <div className="container education" id="Opleiding">
         <h2> <EduIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/>  Webdeveloper worden: Opleiding tot webdeveloper </h2>
@@ -70,10 +59,9 @@ console.log(this.props.courses)
             <img src={JS} alt=""/></div>
             <div><h3> Ruby on Rails </h3>
             <img src={RoR} alt=""/></div>
-
           </Slider>
-            </div>
         </div>
+      </div>
 
       )//return
     }//return
