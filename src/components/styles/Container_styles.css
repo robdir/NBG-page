@@ -118,7 +118,8 @@ that overwrite the attributes or add additional ones for the specific subject*/
 }
 
 .vacancies p {
-  text-align: justify;
+  text-align: left;
+  margin: 5px;
 }
 
 /*End of container styles  */
@@ -133,6 +134,12 @@ that overwrite the attributes or add additional ones for the specific subject*/
   text-align: center;
   border: 2px solid #14bcf0;
   border-radius: 100px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .newspapercolums {

@@ -30,10 +30,11 @@ class Salary extends Component {
     const {expanded} = this.state
     return(
         <div className="container salary" id="Salaris">
-            <h2>
-            <ExpandMore style={expandStyle} onClick={() => this._toggle()} color='#14bcf0' hoverColor='#000000'/>
+          <div className="header-container">
             <CashIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/>
-             Salaris Overzicht voor Webdeveloper </h2>
+             <h2>Salaris Overzicht voor Webdeveloper </h2>
+             <ExpandMore style={expandStyle} onClick={() => this._toggle()} color='#14bcf0' hoverColor='#000000'/>
+             </div>
               <hr/>
               <SmoothCollapse expanded={expanded}>
               <div>
