@@ -55,6 +55,10 @@ class Education extends Component {
         <div className="container education" id="Opleiding">
         <h2> <EduIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/>  Webdeveloper worden: Opleiding tot webdeveloper </h2>
         <hr/>
+        <p>De webdeveloper kan een MBO opleiding Webdeveloper (niveau 4) gevolgd hebben, <br />maar meestal is een HBO diploma in de
+         richting van ICT of Informatiekunde nodig om aan werk te kunnen komen.</p>
+
+         <h3>Opleidingen, cursussen en trainingen:</h3>
 
         <div className="slider">
           <Slider {...settings}>
@@ -91,17 +95,18 @@ class Education extends Component {
                       </div>)}
 
                       {this.props.courses.map((item,index) =>
-                          <div key={3}>
+                          <div key={2}>
                           <div className="slider-item">
-                              <div className="slider-content"> <h3> {item['trainings'][1]['name']} </h3>
+                              <div className="slider-content"> <h3> {item['trainings'][5]['name']} </h3>
                               </div>
 
-                              <div className="slider-content">   <p>Prijs: €{item['trainings'][1]['price']}</p>
+                              <div className="slider-content">   <p>Prijs: €{item['trainings'][5]['price']}</p>
                                 </div>
-                              <div className="slider-content">   <p>Duur: 2 hours</p>
+                              <div className="slider-content">   <p>Duur: Ongeveer 2 maanden</p>
                                 </div>
 
-                              <div className="slider-content">  <a href={item['trainings'][1]['institute']['url'] }><img src={item['trainings'][1]['institute']['logo'] } alt="" /></a>
+                              <div className="slider-content">  <a href={item['trainings'][5]['institute']['url'] }>
+                              <img src={item['trainings'][5]['institute']['logo'] } alt="" /></a>
                                 </div>
                             </div>
                           </div>)}
