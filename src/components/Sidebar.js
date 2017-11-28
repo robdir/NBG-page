@@ -2,20 +2,16 @@ import React, { PureComponent } from 'react';
 import Drawer from 'material-ui/Drawer';
 import MenuItem from 'material-ui/MenuItem';
 import Menu from 'material-ui/svg-icons/navigation/menu'
-import muiTheme from '../assets/styles/theme';
-import PropTypes from 'prop-types'
+import {cyan500} from 'material-ui/styles/colors'
+
+const menuStyle = {
+  backgroundColor: cyan500
+}
 
 class Sidebar extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {open: false};
-  }
-  static childContextTypes = {
-    muiTheme: PropTypes.object.isRequired,
-  }
-
-  getChildContext() {
-    return { muiTheme }
   }
 
   Open = () => this.setState({open: !this.state.open});
@@ -29,7 +25,8 @@ class Sidebar extends PureComponent {
           label="Toggle Drawer"
           onClick={this.Open}
         />
-        <Drawer open={this.state.open}>
+        <Drawer containerStyle={menuStyle} open={this.state.open} >
+        <div className="menu">
           <MenuItem><p>Ga direct naar:</p></MenuItem>
           <hr/>
           <MenuItem onClick={this.Close}><a href='#Omschrijving'><p>Functieomschrijving</p></a></MenuItem>
@@ -41,7 +38,8 @@ class Sidebar extends PureComponent {
           <MenuItem onClick={this.Close}><a href='#Organisatie'><p>Organisaties</p></a></MenuItem>
           <MenuItem onClick={this.Close}><a href='#Interview'><p>Interview</p></a></MenuItem>
           <hr/>
-          <MenuItem onClick={this.Close}> Menu sluiten </MenuItem>
+          <MenuItem onClick={this.Close}> <p> Menu sluiten </p> </MenuItem>
+          </div>
         </Drawer>
       </div>
     );
