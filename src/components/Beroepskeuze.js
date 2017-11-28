@@ -4,7 +4,6 @@ import NotifIcon from 'material-ui-icons/NotificationsActive';
 import RaisedButton from 'material-ui/RaisedButton';
 import SmoothCollapse from 'react-smooth-collapse'
 import ExpandMore from 'material-ui-icons/ExpandMore'
-import {grey300} from 'material-ui/styles/colors'
 
 const iconStyles = {
                     marginRight: 24,
@@ -17,10 +16,6 @@ const expandStyle = {
                     width:60,
                     height:50,
 };
-
-const buttonColor = {
-  backgroundColor: grey300,
-}
 
 
 class Beroepskeuze extends Component {
