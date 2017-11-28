@@ -30,10 +30,12 @@ class Competences extends Component {
 
       return (
         <div className="container competences">
-        <h2>
-        <ExpandMore style={expandStyle} onClick={() => this._toggle()} color='#14bcf0' hoverColor='#000000' />
+
+        <div className="header-container">
         <CheckIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/>
-        Competenties van een Webdeveloper </h2>
+          <h2>Competenties van een Webdeveloper </h2>
+          <ExpandMore style={expandStyle} onClick={() => this._toggle()} color='#14bcf0' hoverColor='#000000' />
+        </div>
         <hr />
         <SmoothCollapse expanded={expanded}>
         <div className="bubble-items ">

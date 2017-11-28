@@ -23,7 +23,7 @@ class Network extends Component {
     const {expanded} = this.state
     return(
         <div className="container network" id='Netwerk'>
-            <h2> <NetIcon onClick={() => this._toggle()} style={iconStyles} color='#14bcf0' hoverColor='#000000'/> Netwerk Webdeveloper  </h2>
+            <h2> <NetIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/> Netwerk Webdeveloper  </h2>
             <hr/>
             <SmoothCollapse expanded={expanded}>
             <p> De voornaamste contacten van een Webdeveloper zijn zijn werkgevers.

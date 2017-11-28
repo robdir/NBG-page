@@ -30,10 +30,12 @@ class Description extends Component {
 
     return(
         <div className="container description" id="Omschrijving">
-        <h2>
-        <ExpandMore style={expandStyle} onClick={() => this._toggle()} color='#14bcf0' hoverColor='#000000'/>
+        <div className="header-container">
         <CreateIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/>
-        Functieomschrijving:</h2> <h2> wat doet een Webdeveloper? </h2>
+        <h2>  Functieomschrijving: wat doet een Webdeveloper? </h2>
+      
+        <ExpandMore style={expandStyle} onClick={() => this._toggle()} color='#14bcf0' hoverColor='#000000'/>
+        </div>
         <hr/>
         <SmoothCollapse expanded={expanded}>
           <p>De Webdeveloper heeft een combinatie van taken waar zowel technisch als creatief inzicht voor nodig is.
@@ -44,10 +46,7 @@ class Description extends Component {
           en ontwikkelt zo de hele website van begin tot eind. Hij werkt hierbij natuurlijk met de eisen van de opdrachtgever.
           Het doel is om de website zo aantrekkelijk mogelijk te maken, met als basis een solide lay-out aangevuld met dynamische elementen en vooral een gebruiksvriendelijke interface.
           Hiervoor moeten niet alleen de wensen en eisen van de opdrachtgever worden meegenomen, maar vooral ook die van de toekomstige bezoeker. </p>
-          <p>Om goed in te kunnen spelen op de veranderende behoeften van gebruikers en opdrachtgevers moet de Webdeveloper de nieuwste ontwikkelingen
-          goed bijhouden en relevante ontwikkelingen toepassen in opdrachten. Het is hierbij van belang dat hij de mogelijkheden van systemen goed inschat,
-          omdat een technisch hoogstaande layout weinig nut heeft als de website steeds crasht.
-          Zo is de Webdeveloper steeds bezig om zich aan de veranderende voorwaarden en mogelijkheden aan te passen. </p>
+
           </SmoothCollapse>
         </div>
       )
