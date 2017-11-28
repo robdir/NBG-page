@@ -25,7 +25,7 @@ const Interview = () => (
     We beginnen de dag meestal eerst met een goede kop koffie. Daarna hebben we altijd een stand-up van 15 minuten. We bespreken... </p>
     </CardText>
     <CardActions>
-      <RaisedButton label="Lees het hele interview" />
+      <RaisedButton primary={true} label="Lees het hele interview" />
     </CardActions>
   </Card>
   </div>

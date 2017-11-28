@@ -46,7 +46,7 @@ class Beroepskeuze extends Component {
          en competenties kunt gebruiken op de arbeidsmarkt, vul dan onze
          beroepskeuze test in en kom erachter of een baan als webdeveloper
           bij jou past.</p>
-              <RaisedButton style={buttonColor} label="Doe de Beroepskeuze Test" />
+              <RaisedButton primary={true} label="Doe de Beroepskeuze Test" />
               </SmoothCollapse>
         </div>
       )
