@@ -7,6 +7,7 @@
   border: solid 2px #e8eaea;
   border-radius: 1px;
   height: fit-content;
+  width: 40%;
   overflow: hidden;
   flex-grow: 1;
 }
@@ -33,7 +34,9 @@
 /* All containers have the container css, and one of the following styles
 that overwrite the attributes or add additional ones for the specific subject*/
 
-.beroepskeuze {}
+.beroepskeuze {
+  max-width: 20%;
+}
 
 .beroepskeuze h2 {
   color: black;
@@ -44,10 +47,7 @@ that overwrite the attributes or add additional ones for the specific subject*/
   background-color: #14bcf0;
 }
 
-.books {
-  max-width: 50%;
-  padding: 2em;
-}
+.books {}
 
 .competences {}
 
@@ -60,7 +60,10 @@ that overwrite the attributes or add additional ones for the specific subject*/
 
 .single-chart {}
 
-.description {}
+.description {
+  flex-grow: 1;
+  max-width: 30%;
+}
 
 .education {
   min-height: 15em;
@@ -75,14 +78,20 @@ that overwrite the attributes or add additional ones for the specific subject*/
 
 .interview {
   background-color: WhiteSmoke;
+  max-width: 30%;
 }
 
 .jobmarket {
   flex-grow: 2;
+  max-width: 60%;
 }
 
 .network {
   height: 40em;
+}
+
+.organisation {
+  max-width: 20%;
 }
 
 .personality {
@@ -195,4 +204,15 @@ that overwrite the attributes or add additional ones for the specific subject*/
 
 .tag:hover::after {
   border-left-color: #c9d9e6;
+}
+
+@breakpoint: 500px;
+/* Responsive
+==================================== */
+
+@media screen and (max-width: 480px) {
+  .container {
+    background-color: red;
+    max-width: 100vw !important;
+  }
 }

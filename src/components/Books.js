@@ -4,7 +4,6 @@ import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { UpdateBooks } from '../actions/books'
 import Slider from 'react-slick'
-import bookcover from '../images/book_cover.jpg'
 import StarIcon from 'material-ui-icons/Star';
 
 const iconStyles = {
@@ -21,7 +20,6 @@ class Books extends Component {
   static propTypes = {
     books: PropTypes.array
   }
-
 
   render() {
     var settings = {
@@ -53,7 +51,6 @@ class Books extends Component {
         }
       }]
     };
-
 
     return(
 
