@@ -32,6 +32,9 @@ class Network extends Component {
             om een idee te krijgen van wat bezoekers eigenlijk willen van de website.
             Verder is er contact met de ICTers waarmee de Webdeveloper de website in elkaar zet en onderhoudt. </p>
             <NodeNetwork/>
+            <hr />
+            <div className= "mini-footer"> <p> *Mogelijk gemaakt door <a href=""> Intelligence Group </a> </p>
+            </div>
             </SmoothCollapse>
         </div>
       )

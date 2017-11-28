@@ -3,7 +3,6 @@ import AppBar from 'material-ui/AppBar'
 import Sidebar from './Sidebar'
 import TextField from 'material-ui/TextField'
 
-
 class Navigation extends PureComponent {
 
   render() {

@@ -35,6 +35,9 @@ class Salary extends Component {
                  freelance Webdeveloper zal hele andere arbeidsvoorwaarden
                  krijgen dan iemand in vast dienstverband, waarbij vaak ook
                  geldt dat de freelancer zijn eigen tarief bepaalt.</p>
+                 <hr />
+                 <div className= "mini-footer"> <p> *Mogelijk gemaakt door <a href=""> Intelligence Group </a> </p>
+                 </div>
                  </SmoothCollapse>
         </div>
       )

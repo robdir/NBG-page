@@ -14,12 +14,12 @@ const Interview = () => (
       avatar={blogwriter}
     />
     <CardMedia
-      overlay={<CardTitle title=" 'I am living the dream, never going back to my old job' " subtitle="Jan de Vries made the swith from cassiere to webdeveloper" />}
+      overlay={<CardTitle title=" 'I am living the dream, never going back to my old job' " subtitle="Jan de Vries liet zich omscholen tot webdeveloper" />}
 
     >
       <img src={webdeveloper} alt="" />
     </CardMedia>
-    <CardTitle title="Interview with a Webdeveloper: Jan de Vries" subtitle="We spraken Jan in zijn huis in Waddinxveen" />
+    <CardTitle title="De ervaringen van een webdeveloper: Jan de Vries" subtitle="We spraken Jan in zijn huis in Waddinxveen" />
     <CardText>
     <p> <b> Hoe ziet een doorsnee dag van een webdeveloper eruit? </b> <br/>
     We beginnen de dag meestal eerst met een goede kop koffie. Daarna hebben we altijd een stand-up van 15 minuten. We bespreken... </p>
