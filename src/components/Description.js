@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
 import './styles/Container_styles.css'
 import CreateIcon from 'material-ui-icons/Create';
+import ExpandMore from 'material-ui-icons/ExpandMore'
 import SmoothCollapse from 'react-smooth-collapse'
 
 const iconStyles = {
-                    marginRight: 24,
+                    marginRight: 25,
+                    width:60,
+                    height:50,
+                };
+
+const expandStyle = {
+                    marginRight: 25,
                     width:60,
                     height:50,
                 };
@@ -23,7 +30,10 @@ class Description extends Component {
 
     return(
         <div className="container description" id="Omschrijving">
-        <h2> <CreateIcon onClick={() => this._toggle()} style={iconStyles} color='#14bcf0' hoverColor='#000000'/>Functieomschrijving: wat doet een Webdeveloper? </h2>
+        <h2>
+        <ExpandMore style={expandStyle} onClick={() => this._toggle()} color='#14bcf0' hoverColor='#000000'/>
+        <CreateIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/>
+        Functieomschrijving:</h2> <h2> wat doet een Webdeveloper? </h2>
         <hr/>
         <SmoothCollapse expanded={expanded}>
           <p>De Webdeveloper heeft een combinatie van taken waar zowel technisch als creatief inzicht voor nodig is.

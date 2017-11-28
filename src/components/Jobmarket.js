@@ -5,9 +5,16 @@ import DoughnutChart from '../graphs/Doughnutchart'
 import './styles/Block.css'
 import MarketIcon from 'material-ui-icons/Poll';
 import SmoothCollapse from 'react-smooth-collapse'
+import ExpandMore from 'material-ui-icons/ExpandMore'
 
 const iconStyles = {
                     marginRight: 24,
+                    width:60,
+                    height:50,
+                };
+
+const expandStyle = {
+                    marginRight: 0,
                     width:60,
                     height:50,
                 };
@@ -36,7 +43,7 @@ class Jobmarket extends Component {
 
     return(
         <div className="container jobmarket">
-          <h2> <MarketIcon onClick={() => this._toggle()} style={iconStyles} color='#14bcf0' hoverColor='#000000'/>Arbeidsmarktperspectief en Doorgroeimogelijkheden Webdeveloper</h2>
+          <h2> <ExpandMore style={expandStyle} onClick={() => this._toggle()} color='#14bcf0' hoverColor='#000000'/> <MarketIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/>Arbeidsmarktperspectief en Doorgroeimogelijkheden Webdeveloper</h2>
             <hr/>
             <SmoothCollapse expanded={expanded}>
               <div> <p>Er zijn voldoende mogelijkheden om als Webdeveloper een baan te kunnen krijgen,

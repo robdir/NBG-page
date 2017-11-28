@@ -3,12 +3,20 @@ import './styles/Container_styles.css'
 import HorizontalChart from '../graphs/HorizontalBar';
 import CashIcon from 'material-ui-icons/AttachMoney';
 import SmoothCollapse from 'react-smooth-collapse'
+import ExpandMore from 'material-ui-icons/ExpandMore'
 
 const iconStyles = {
                     marginRight: 24,
                     width:60,
                     height:50,
                 };
+
+const expandStyle = {
+                    marginRight: 0,
+                    width:60,
+                    height:50,
+                };
+
 class Salary extends Component {
   state: Object = {
     expanded: true
@@ -22,7 +30,10 @@ class Salary extends Component {
     const {expanded} = this.state
     return(
         <div className="container salary" id="Salaris">
-            <h2> <CashIcon onClick={() => this._toggle()} style={iconStyles} color='#14bcf0' hoverColor='#000000'/> Salaris Overzicht voor Webdeveloper </h2>
+            <h2>
+            <ExpandMore style={expandStyle} onClick={() => this._toggle()} color='#14bcf0' hoverColor='#000000'/>
+            <CashIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/>
+             Salaris Overzicht voor Webdeveloper </h2>
               <hr/>
               <SmoothCollapse expanded={expanded}>
               <div>
