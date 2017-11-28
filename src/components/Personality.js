@@ -33,7 +33,7 @@ class Personality extends Component {
     return(
         <div className="container personality" id='Persoontypen'>
         <h2>
-        <ExpandMore onClick={() => this._toggle()} style={iconStyles} color='#14bcf0' hoverColor='#000000'/>
+        <ExpandMore onClick={() => this._toggle()} style={expandStyle} color='#14bcf0' hoverColor='#000000'/>
         <CheckIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/>
         Persoonstypen webdeveloper </h2>
         <hr/>
