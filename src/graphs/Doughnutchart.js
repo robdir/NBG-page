@@ -9,7 +9,7 @@ class DoughnutChart extends PureComponent {
 
       chartData_chart1:{
           labels: [
-              'Baankans Webdeveloper 99%',
+              'Baankans Webdeveloper 99% *',
               ],
               datasets: [{
                 data: [99],
@@ -31,7 +31,7 @@ class DoughnutChart extends PureComponent {
             },
           chartData_chart2:{
             labels: [
-                'Gemiddelde Baankans Nederland 79.5%',
+                'Gemiddelde Baankans Nederland 79.5% *',
                 ],
                 datasets: [{
                   data: [79.5],
