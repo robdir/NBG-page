@@ -12,11 +12,6 @@ const iconStyles = {
                     height:50,
 };
 
-const expandStyle = {
-                    marginRight: 0,
-                    width:60,
-                    height:50,
-};
 
 
 class Personality extends Component {
