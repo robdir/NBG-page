@@ -3,10 +3,10 @@ import Drawer from 'material-ui/Drawer';
 import MenuItem from 'material-ui/MenuItem';
 import Menu from 'material-ui/svg-icons/navigation/menu'
 
-import {cyan500} from 'material-ui/styles/colors'
+import {lightBlue400} from 'material-ui/styles/colors'
 
 const menuStyle = {
-  backgroundColor: cyan500,
+  backgroundColor: lightBlue400,
 }
 
 class Sidebar extends PureComponent {

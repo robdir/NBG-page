@@ -40,10 +40,7 @@ class NodeNetwork extends PureComponent {
       events: {
         select: function(event) {
           var { nodes, edges } = event;
-          console.log("Selected nodes:");
-          console.log(nodes);
-          console.log("Selected edges:");
-          console.log(edges);
+
         }
       }
     }
