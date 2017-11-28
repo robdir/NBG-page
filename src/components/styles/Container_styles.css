@@ -46,7 +46,6 @@ that overwrite the attributes or add additional ones for the specific subject*/
   background-color: #14bcf0;
 }
 
-
 .books {
   max-width: 60%;
 }
@@ -132,7 +131,7 @@ that overwrite the attributes or add additional ones for the specific subject*/
 .counter p {
   font-size: 30px;
   text-align: center;
-  background-color: #7DD5F0;
+  border: 2px solid #14bcf0;
   border-radius: 100px;
 }
 
