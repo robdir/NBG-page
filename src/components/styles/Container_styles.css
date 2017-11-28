@@ -7,9 +7,8 @@
   border: solid 2px #e8eaea;
   border-radius: 1px;
   height: fit-content;
-  width: 40%;
+  max-width: 40%;
   overflow: hidden;
-  flex-grow: 1;
 }
 
 .master-container {
@@ -35,7 +34,7 @@
 that overwrite the attributes or add additional ones for the specific subject*/
 
 .beroepskeuze {
-  max-width: 20%;
+  max-width: 40%;
 }
 
 .beroepskeuze h2 {
@@ -47,6 +46,14 @@ that overwrite the attributes or add additional ones for the specific subject*/
   background-color: #14bcf0;
 }
 
+
+.books {
+  max-width: 60%;
+}
+
+.competences {
+  max-width: 30%;
+}
 
 .chart-container {
   display: flex;
@@ -64,8 +71,12 @@ that overwrite the attributes or add additional ones for the specific subject*/
 
 .education {
   min-height: 15em;
-  max-width: 90%;
+  max-width: 100%;
   padding: 2em;
+}
+
+.education p {
+  text-align: center;
 }
 
 .large-container {
@@ -75,7 +86,7 @@ that overwrite the attributes or add additional ones for the specific subject*/
 
 .interview {
   background-color: WhiteSmoke;
-  max-width: 30%;
+  max-width: 50%;
 }
 
 .jobmarket {
@@ -85,24 +96,30 @@ that overwrite the attributes or add additional ones for the specific subject*/
 
 .network {
   height: 40em;
+  max-width: 45%;
 }
 
 .organisation {
-  max-width: 20%;
+  max-width: 35%;
 }
 
 .personality {
-  width: 25%;
+  max-width: 55%;
 }
 
 .salary {
   height: auto;
+  max-width: 45%;
 }
 
 .vacancies {
-  max-width: 90%;
+  max-width: 100%;
   min-height: 20em;
   padding: 2em;
+}
+
+.vacancies p {
+  text-align: justify;
 }
 
 /*End of container styles  */
@@ -119,12 +136,24 @@ that overwrite the attributes or add additional ones for the specific subject*/
   border-radius: 100px;
 }
 
+.newspapercolums {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.newspapercolums p {
+  margin: 10px;
+  width: 450px;
+}
+
 .mini-footer {
   font-size: 10px;
 }
 
 .slider {
-  padding: 4em, 4em, 4em, 4em;
+  padding: 2em;
 }
 
 .slider-item {
@@ -133,11 +162,13 @@ that overwrite the attributes or add additional ones for the specific subject*/
   flex-direction: column;
   box-shadow: 7px 6px 5px 1px #ded2d2;
   border: 1px solid #ded2d2;
-  margin: 1em;
+  margin: 10px;
   overflow: hidden;
 }
 
 .slider-content {}
+
+.slider-card-vacature {}
 
 .slider img {
   height: 120px;
