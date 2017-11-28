@@ -3,12 +3,22 @@ import './styles/Container_styles.css'
 import './styles/Bubble.css'
 import CheckIcon from 'material-ui-icons/Check';
 import SmoothCollapse from 'react-smooth-collapse'
+import ExpandMore from 'material-ui-icons/ExpandMore'
+
 
 const iconStyles = {
                     marginRight: 24,
                     width:60,
                     height:50,
-                };
+};
+
+const expandStyle = {
+                    marginRight: 0,
+                    width:60,
+                    height:50,
+};
+
+
 class Personality extends Component {
   state: Object = {
     expanded: true
@@ -22,7 +32,10 @@ class Personality extends Component {
     const {expanded} = this.state
     return(
         <div className="container personality" id='Persoontypen'>
-        <h2> <CheckIcon onClick={() => this._toggle()} style={iconStyles} color='#14bcf0' hoverColor='#000000'/> Persoonstypen webdeveloper </h2>
+        <h2>
+        <ExpandMore onClick={() => this._toggle()} style={iconStyles} color='#14bcf0' hoverColor='#000000'/>
+        <CheckIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/>
+        Persoonstypen webdeveloper </h2>
         <hr/>
         <SmoothCollapse expanded={expanded}>
         <p>De Webdeveloper zit vaak overal tussen en moet zich snel aan kunnen passen.
