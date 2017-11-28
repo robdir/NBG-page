@@ -47,9 +47,6 @@ that overwrite the attributes or add additional ones for the specific subject*/
   background-color: #14bcf0;
 }
 
-.books {}
-
-.competences {}
 
 .chart-container {
   display: flex;
@@ -95,7 +92,7 @@ that overwrite the attributes or add additional ones for the specific subject*/
 }
 
 .personality {
-  width: auto;
+  width: 25%;
 }
 
 .salary {
