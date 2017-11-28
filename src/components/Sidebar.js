@@ -2,21 +2,17 @@ import React, { PureComponent } from 'react';
 import Drawer from 'material-ui/Drawer';
 import MenuItem from 'material-ui/MenuItem';
 import Menu from 'material-ui/svg-icons/navigation/menu'
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import muiTheme from '../assets/styles/theme';
-import PropTypes from 'prop-types'
+
+import {cyan500} from 'material-ui/styles/colors'
+
+const menuStyle = {
+  backgroundColor: cyan500,
+}
 
 class Sidebar extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {open: false};
-  }
-  static childContextTypes = {
-    muiTheme: PropTypes.object.isRequired,
-  }
-
-  getChildContext() {
-    return { muiTheme }
   }
 
   Open = () => this.setState({open: !this.state.open});
@@ -30,22 +26,22 @@ class Sidebar extends PureComponent {
           label="Toggle Drawer"
           onClick={this.Open}
         />
-        <MuiThemeProvider muiTheme={muiTheme}>
-        <Drawer open={this.state.open}>
+        <Drawer containerStyle={menuStyle} open={this.state.open} >
+        <div className="menu">
           <MenuItem><p>Ga direct naar:</p></MenuItem>
           <hr/>
           <MenuItem onClick={this.Close}><a href='#Omschrijving'><p>Functieomschrijving</p></a></MenuItem>
-          <MenuItem onClick={this.Close}><a href='#Vacatures'><p>Vacatures</p></a></MenuItem>
           <MenuItem onClick={this.Close}><a href='#Opleiding'><p>Opleiding</p></a></MenuItem>
+          <MenuItem onClick={this.Close}><a href='#Vacatures'><p>Vacatures</p></a></MenuItem>
           <MenuItem onClick={this.Close}><a href='#Salaris'><p>Salaris</p></a></MenuItem>
           <MenuItem onClick={this.Close}><a href='#Netwerk'><p>Netwerk</p></a></MenuItem>
           <MenuItem onClick={this.Close}><a href='#Persoontypen'><p>Persoontypen</p></a></MenuItem>
           <MenuItem onClick={this.Close}><a href='#Organisatie'><p>Organisaties</p></a></MenuItem>
           <MenuItem onClick={this.Close}><a href='#Interview'><p>Interview</p></a></MenuItem>
           <hr/>
-          <MenuItem onClick={this.Close}> Menu sluiten </MenuItem>
+          <MenuItem onClick={this.Close}> <p> Menu sluiten </p> </MenuItem>
+          </div>
         </Drawer>
-        </MuiThemeProvider>
       </div>
     );
   }

@@ -46,6 +46,7 @@ that overwrite the attributes or add additional ones for the specific subject*/
   background-color: #14bcf0;
 }
 
+
 .books {
   max-width: 60%;
 }
@@ -233,13 +234,18 @@ that overwrite the attributes or add additional ones for the specific subject*/
   border-left-color: #c9d9e6;
 }
 
+.menu a, p {
+  text-decoration: none !important;
+  color: White;
+}
+
 @breakpoint: 500px;
 /* Responsive
 ==================================== */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .container {
-    background-color: red;
+    /*background-color: red;*/
     max-width: 100vw !important;
   }
 }

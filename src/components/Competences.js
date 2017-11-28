@@ -3,9 +3,15 @@ import './styles/Bubble.css'
 import './styles/Container_styles.css'
 import CheckIcon from 'material-ui-icons/Check';
 import SmoothCollapse from 'react-smooth-collapse'
+import ExpandMore from 'material-ui-icons/ExpandMore'
 
 const iconStyles = {
                     marginRight: 24,
+                    width:60,
+                    height:50,
+                };
+const expandStyle = {
+                    marginRight: 0,
                     width:60,
                     height:50,
                 };
@@ -24,7 +30,10 @@ class Competences extends Component {
 
       return (
         <div className="container competences">
-        <h2><CheckIcon onClick={() => this._toggle()} style={iconStyles} color='#14bcf0' hoverColor='#000000'/>Competenties van een Webdeveloper </h2>
+        <h2>
+        <ExpandMore style={expandStyle} onClick={() => this._toggle()} color='#14bcf0' hoverColor='#000000' />
+        <CheckIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/>
+        Competenties van een Webdeveloper </h2>
         <hr />
         <SmoothCollapse expanded={expanded}>
         <div className="bubble-items ">
