@@ -1,19 +1,23 @@
 
-This template for NationaleBeroepenGids contains the following:
+########################################################
+
+This template for NationaleBeroepenGids made by the students of Codaisseur and contains the following:
 
 APIs:
 - Connection with Bol.com (see API docs)
 - Connection with Springest (see API docs)
 - Connection with Intelligence Group (at this moment hard-coded)
 
-Additional components in packages.json:
-- Chart.js
-- Vis
-- NodeNetwork
-- 
+More information on the components in package.json:
+- Chart.js http://www.chartjs.org/
+- Graph Vis http://visjs.org/
+- React Slick - Slick Caroussel - https://github.com/akiran/react-slick
+
+Styling and interactiveness:
+- Material UI  - http://www.material-ui.com/#/
 
 
-
+##############################################
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
