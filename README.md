@@ -6,7 +6,7 @@ This template for NationaleBeroepenGids made by the students of Codaisseur and c
 APIs:
 - Connection with Bol.com (see API docs)
 - Connection with Springest (see API docs)
-- Connection with Intelligence Group (at this moment hard-coded)
+- Connection with Intelligence Group 
 
 More information on the components in package.json:
 - Chart.js http://www.chartjs.org/
