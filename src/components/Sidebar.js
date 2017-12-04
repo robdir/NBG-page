@@ -16,7 +16,7 @@ class Sidebar extends PureComponent {
   }
 
   Open = () => this.setState({open: !this.state.open});
-  Close = () => this.setState({open: !this.state.open})
+  Close = () => this.setState({open: false})
 
   render() {
     return (
@@ -26,7 +26,7 @@ class Sidebar extends PureComponent {
           label="Toggle Drawer"
           onClick={this.Open}
         />
-        <Drawer containerStyle={menuStyle} open={this.state.open} >
+        <Drawer containerStyle={menuStyle} open={this.state.open} onRequestChange={(open) => this.setState({open})} docked={false} >
         <div className="menu">
           <MenuItem><p>Ga direct naar:</p></MenuItem>
           <hr/>
