@@ -2,8 +2,7 @@ import React, { PureComponent } from 'react';
 import Drawer from 'material-ui/Drawer';
 import MenuItem from 'material-ui/MenuItem';
 import Menu from 'material-ui/svg-icons/navigation/menu'
-
-import {lightBlue400} from 'material-ui/styles/colors'
+import {lightBlue400} from 'material-ui/styles/colors';
 
 const menuStyle = {
   backgroundColor: lightBlue400,
