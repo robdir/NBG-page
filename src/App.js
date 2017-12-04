@@ -49,7 +49,6 @@ class App extends Component {
         <Organisation />
         <Beroepskeuze />
         <Interview />
-
         </div>
           <Footer/>
         </div>
