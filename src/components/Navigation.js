@@ -10,7 +10,9 @@ class Navigation extends PureComponent {
         style={{ position: "fixed" }}
         title="NationaleBeroepenGids.nl"
         iconElementLeft={<Sidebar/>}
+        iconStyleLeft={{  marginTop: 'auto', marginBottom: 'auto'}}
         iconElementRight={<Search/>}
+        iconStyleRight={{  marginTop: 'auto', marginBottom: 'auto'}}
         />
     )
   }
