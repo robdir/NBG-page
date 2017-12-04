@@ -1,5 +1,3 @@
-######
-
 [Link to demo](https://nbg-client.herokuapp.com/)
 
 ######
@@ -22,6 +20,8 @@ In the event that the link to the demo at the top of the readme does not not wor
 2. Cloning both this repository and the API
 3. Running `yarn install` followed by `yarn start`
 
+######
+######
 ######
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
