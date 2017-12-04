@@ -183,7 +183,7 @@ that overwrite the attributes or add additional ones for the specific subject*/
 .slider img {
   max-width: 65%;
   max-height: 65%;
-  object-fit: contain;
+  object-fit: cover;
   margin-left: auto;
   margin-right: auto;
 }
