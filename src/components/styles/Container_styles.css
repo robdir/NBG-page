@@ -78,6 +78,10 @@ that overwrite the attributes or add additional ones for the specific subject*/
   text-align: center;
 }
 
+.education img {
+
+}
+
 .large-container {
   display: flex;
   flex-direction: column;
@@ -177,7 +181,9 @@ that overwrite the attributes or add additional ones for the specific subject*/
 .slider-card-vacature {}
 
 .slider img {
-  height: 120px;
+  max-width: 65%;
+  max-height: 65%;
+  object-fit: contain;
   margin-left: auto;
   margin-right: auto;
 }
