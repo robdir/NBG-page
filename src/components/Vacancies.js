@@ -56,7 +56,7 @@ class Vacancies extends Component {
         <div className="slider">
           <Slider {...settings}>
 
-            <div className="slider-card-vacature"> <h3> Stage: Backend developer (PHP, Mediadeveloper) </h3> <img src={PHP} alt=""/>
+            <div className="slider-card-vacature"> <h3> Stage: Backend developer (PHP, Mediadeveloper) </h3> <div> <img src={PHP} alt=""/> </div>
 
             <div className="mini-footer"><p><a href=""> Nationale Vacaturebank</a> - 3 dagen geleden</p> </div>
             </div>
@@ -76,7 +76,7 @@ class Vacancies extends Component {
 
             <div className="mini-footer"><p><a href=""> Monsterboard</a> - 2 dagen geleden</p> </div>
             </div>
-            <div className="slider-card-vacature"><h3> Mobile Web Developer</h3> <img src={Native} alt=""/>
+            <div className="slider-card-vacature"><h3> Mobile Web Developer</h3> <div> <img src={Native} alt=""/> </div>
               <div className="mini-footer"><p><a href=""> Monsterboard</a> - 6 dagen geleden</p> </div>
             </div>
 
