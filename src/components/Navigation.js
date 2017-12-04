@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react'
 import AppBar from 'material-ui/AppBar'
 import Sidebar from './Sidebar'
-import TextField from 'material-ui/TextField'
+import Search from './Search'
 
 class Navigation extends PureComponent {
 
@@ -11,7 +11,7 @@ class Navigation extends PureComponent {
         style={{ position: "fixed" }}
         title="NationaleBeroepenGids.nl"
         iconElementLeft={<Sidebar/>}
-        iconElementRight={<TextField hintText="Zoeken naar..."/>}
+        iconElementRight={<Search/>}
         />
     )
   }

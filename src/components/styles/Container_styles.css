@@ -249,7 +249,7 @@ that overwrite the attributes or add additional ones for the specific subject*/
 /* Responsive
 ==================================== */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .container {
     /*background-color: red;*/
     max-width: 100vw !important;
