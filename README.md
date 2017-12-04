@@ -1,3 +1,29 @@
+######
+
+[Link to demo](https://nbg-client.herokuapp.com/)
+
+######
+
+This project was a collaboration between myself and [Marjolein Tromp](https://github.com/mrjln). We were tasked with 
+creating a template-view for the vocational pages as found on [NationaleBeroepenGids](https://www.nationaleberoepengids.nl/Webdeveloper) with our main focuses being:
+1. Improving UX.
+2. Integrating graphical representations of current data.
+3. Providing a consistent and user-friendly mobile-experience.
+
+######
+
+This application was created with Javascript both front-end (React + Redux) and back-end (Express API). You can find the 
+API side of this application [here](https://github.com/robdir/NBG-API)
+
+######
+
+In the event that the link to the demo at the top of the readme does not not work, this app can be run locally via:
+1. Ensuring the correct engines are on your machine, e.g. node.js, yarn
+2. Cloning both this repository and the API
+3. Running `yarn install` followed by `yarn start`
+
+######
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
