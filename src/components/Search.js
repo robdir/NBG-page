@@ -58,6 +58,7 @@ class Search extends PureComponent {
   onChange = (event, { newValue }) => {
     this.setState({
       value: newValue
+
     });
   };
 

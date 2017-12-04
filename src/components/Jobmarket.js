@@ -43,7 +43,9 @@ class Jobmarket extends Component {
 
     return(
         <div className="container jobmarket">
-          <h2> <ExpandMore style={expandStyle} onClick={() => this._toggle()} color='#14bcf0' hoverColor='#000000'/> <MarketIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/>Arbeidsmarktperspectief en Doorgroeimogelijkheden Webdeveloper</h2>
+          <h2> <ExpandMore style={expandStyle} onClick={() => this._toggle()} color='#14bcf0' hoverColor='#000000'
+          /> <MarketIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/>
+          Arbeidsmarktperspectief en Doorgroeimogelijkheden Webdeveloper</h2>
             <hr/>
             <SmoothCollapse expanded={expanded}>
               <div> <p>Er zijn voldoende mogelijkheden om als Webdeveloper een baan te kunnen krijgen,
