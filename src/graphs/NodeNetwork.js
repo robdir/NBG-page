@@ -36,13 +36,6 @@ class NodeNetwork extends PureComponent {
           hover: true,
         }
       },
-
-      events: {
-        select: function(event) {
-          var { nodes, edges } = event;
-
-        }
-      }
     }
   }
     render() {

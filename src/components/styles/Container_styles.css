@@ -251,7 +251,6 @@ that overwrite the attributes or add additional ones for the specific subject*/
 
 @media screen and (max-width: 1000px) {
   .container {
-    /*background-color: red;*/
     max-width: 100vw !important;
   }
 }
