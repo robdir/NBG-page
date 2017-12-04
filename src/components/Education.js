@@ -95,7 +95,22 @@ class Education extends Component {
                       </div>)}
 
                       {this.props.courses.map((item,index) =>
-                          <div key={2}>
+                        <div key={2}>
+                        <div className="slider-item">
+                                <div className="slider-content"> <h3> {item['trainings'][3]['name']}</h3>
+                                </div>
+                                <div className="slider-content">   <p>Prijs: €{item['trainings'][3]['price']}</p>
+                                  </div>
+                                <div className="slider-content">   <p>Duur: 2 uur</p>
+                                  </div>
+
+                                <div className="slider-content">  <a href={item['trainings'][3]['institute']['url'] }><img src={item['trainings'][3]['institute']['logo'] } alt="" /></a>
+                                  </div>
+                                  </div>
+                            </div>)}
+
+                      {this.props.courses.map((item,index) =>
+                          <div key={3}>
                           <div className="slider-item">
                               <div className="slider-content"> <h3> {item['trainings'][5]['name']} </h3>
                               </div>
@@ -111,6 +126,10 @@ class Education extends Component {
                             </div>
                           </div>)}
           </Slider>
+          <div className= "mini-footer"> <p> <br/> <br/>Mogelijk gemaakt door <a href=""> Springest </a>
+
+          </p>
+          </div>
         </div>
       </div>
 

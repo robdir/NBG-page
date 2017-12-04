@@ -81,6 +81,7 @@ class Vacancies extends Component {
             </div>
 
           </Slider>
+                  <hr/>
 
 <div className="newspapercolums">
                     <p> Op zoek naar een nieuwe baan als Webdeveloper? Samen met onze vacature partners

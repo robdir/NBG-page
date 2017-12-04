@@ -12,11 +12,6 @@ const iconStyles = {
                     height:50,
 };
 
-const expandStyle = {
-                    marginRight: 0,
-                    width:60,
-                    height:50,
-};
 
 
 class Personality extends Component {
@@ -32,10 +27,12 @@ class Personality extends Component {
     const {expanded} = this.state
     return(
         <div className="container personality" id='Persoontypen'>
-        <h2>
-        <ExpandMore onClick={() => this._toggle()} style={expandStyle} color='#14bcf0' hoverColor='#000000'/>
+        <div className="header-container">
+
         <CheckIcon style={iconStyles} color='#14bcf0' hoverColor='#000000'/>
-        Persoonstypen webdeveloper </h2>
+        <h2>Persoonstypen webdeveloper </h2>
+        <ExpandMore onClick={() => this._toggle()} style={iconStyles} color='#14bcf0' hoverColor='#000000'/>
+        </div>
         <hr/>
         <SmoothCollapse expanded={expanded}>
         <p>De Webdeveloper zit vaak overal tussen en moet zich snel aan kunnen passen.
@@ -43,7 +40,7 @@ class Personality extends Component {
         gaan en daarbij met andere mensen samen te kunnen werken (Levensgenieter).
         Om een goede website in elkaar te zetten (vooral bij het programmeren),
         moet de Webdeveloper nauwkeurig kunnen werken en moet hij goed op alle details kunnen letten (Waarnemer).</p>
-        <h3> Wat zijn deze persoontypen? </h3>
+        <h3> Wat zijn de Levensgenieter en Waarnemer persoonstypen? </h3>
         <hr/>
         <div className="bubble-items ">
           <div className="bubble"><p> Levensgenieter </p>
